@@ -1,0 +1,8 @@
+{
+    "code" : 0,
+    "data" : {
+        "username": "tom",
+        "age": 21,
+        "city": "成都"
+    }
+}
