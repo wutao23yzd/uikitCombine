@@ -1,0 +1,36 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/3_crash-fcshftnqinzacbczjylzytbpintb/Build/Intermediates.noindex/ArchiveIntermediates/3_crash/InstallationBuildProductsLocation/Applications/3_crash.app/3_crash'
+relocations:
+  - { offset: 0x5A7A9, size: 0x8, addend: 0x0, symName: '_$s7__crash14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x38 }
+  - { offset: 0x5A8A1, size: 0x8, addend: 0x0, symName: '_$s7__crash14ViewControllerCMa', symObjAddr: 0x174, symBinAddr: 0x100004174, symSize: 0x20 }
+  - { offset: 0x5A948, size: 0x8, addend: 0x0, symName: '_$s7__crash14ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x38 }
+  - { offset: 0x5AA16, size: 0x8, addend: 0x0, symName: '_$s7__crash14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x38, symBinAddr: 0x100004038, symSize: 0x9C }
+  - { offset: 0x5AA70, size: 0x8, addend: 0x0, symName: '_$s7__crash14ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xD4, symBinAddr: 0x1000040D4, symSize: 0x70 }
+  - { offset: 0x5AAA7, size: 0x8, addend: 0x0, symName: '_$s7__crash14ViewControllerCfD', symObjAddr: 0x144, symBinAddr: 0x100004144, symSize: 0x30 }
+  - { offset: 0x5AB9B, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtFTo', symObjAddr: 0x0, symBinAddr: 0x100004194, symSize: 0x8 }
+  - { offset: 0x5ACB3, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateCMa', symObjAddr: 0x1E0, symBinAddr: 0x100004374, symSize: 0x20 }
+  - { offset: 0x5ADA8, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtFTo', symObjAddr: 0x0, symBinAddr: 0x100004194, symSize: 0x8 }
+  - { offset: 0x5AE1C, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0I7SessionCSo0I17ConnectionOptionsCtFTo', symObjAddr: 0x8, symBinAddr: 0x10000419C, symSize: 0xE0 }
+  - { offset: 0x5AEB5, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtFTo', symObjAddr: 0xE8, symBinAddr: 0x10000427C, symSize: 0x4 }
+  - { offset: 0x5AEDD, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateCACycfcTo', symObjAddr: 0xEC, symBinAddr: 0x100004280, symSize: 0x3C }
+  - { offset: 0x5AF12, size: 0x8, addend: 0x0, symName: '_$s7__crash11AppDelegateCfD', symObjAddr: 0x128, symBinAddr: 0x1000042BC, symSize: 0x30 }
+  - { offset: 0x5AF5C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x158, symBinAddr: 0x1000042EC, symSize: 0x88 }
+  - { offset: 0x5B034, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC6windowSo8UIWindowCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100004394, symSize: 0x10 }
+  - { offset: 0x5B197, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateCfETo', symObjAddr: 0xD4, symBinAddr: 0x100004468, symSize: 0x10 }
+  - { offset: 0x5B1C6, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateCMa', symObjAddr: 0xE4, symBinAddr: 0x100004478, symSize: 0x20 }
+  - { offset: 0x5B24A, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC6windowSo8UIWindowCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100004394, symSize: 0x10 }
+  - { offset: 0x5B262, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC6windowSo8UIWindowCSgvgTo', symObjAddr: 0x0, symBinAddr: 0x100004394, symSize: 0x10 }
+  - { offset: 0x5B2AA, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC6windowSo8UIWindowCSgvsTo', symObjAddr: 0x10, symBinAddr: 0x1000043A4, symSize: 0x34 }
+  - { offset: 0x5B2E5, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0I7SessionCSo0I17ConnectionOptionsCtFTo', symObjAddr: 0x44, symBinAddr: 0x1000043D8, symSize: 0x4 }
+  - { offset: 0x5B2F9, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC18sceneDidDisconnectyySo7UISceneCFTo', symObjAddr: 0x48, symBinAddr: 0x1000043DC, symSize: 0x4 }
+  - { offset: 0x5B30D, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCFTo', symObjAddr: 0x4C, symBinAddr: 0x1000043E0, symSize: 0x4 }
+  - { offset: 0x5B321, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC21sceneWillResignActiveyySo7UISceneCFTo', symObjAddr: 0x50, symBinAddr: 0x1000043E4, symSize: 0x4 }
+  - { offset: 0x5B335, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCFTo', symObjAddr: 0x54, symBinAddr: 0x1000043E8, symSize: 0x4 }
+  - { offset: 0x5B349, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCFTo', symObjAddr: 0x58, symBinAddr: 0x1000043EC, symSize: 0x4 }
+  - { offset: 0x5B371, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateCACycfcTo', symObjAddr: 0x5C, symBinAddr: 0x1000043F0, symSize: 0x48 }
+  - { offset: 0x5B3A6, size: 0x8, addend: 0x0, symName: '_$s7__crash13SceneDelegateCfD', symObjAddr: 0xA4, symBinAddr: 0x100004438, symSize: 0x30 }
+  - { offset: 0x5B48A, size: 0x8, addend: 0x0, symName: '_$s7__crash19ResourceBundleClass33_371AE743A7047BB46A427827FE424651LLCfD', symObjAddr: 0x0, symBinAddr: 0x100004498, symSize: 0x10 }
+  - { offset: 0x5B4CC, size: 0x8, addend: 0x0, symName: '_$s7__crash19ResourceBundleClass33_371AE743A7047BB46A427827FE424651LLCMa', symObjAddr: 0x10, symBinAddr: 0x1000044A8, symSize: 0x20 }
+  - { offset: 0x5B4E7, size: 0x8, addend: 0x0, symName: '_$s7__crash19ResourceBundleClass33_371AE743A7047BB46A427827FE424651LLCfD', symObjAddr: 0x0, symBinAddr: 0x100004498, symSize: 0x10 }
+...
