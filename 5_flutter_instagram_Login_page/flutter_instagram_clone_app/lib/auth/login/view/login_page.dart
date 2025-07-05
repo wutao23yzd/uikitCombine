@@ -15,18 +15,22 @@ import 'package:flutter_instagram_clone_app/packages/app_ui/spacing/app_spacing.
 import 'package:flutter_instagram_clone_app/packages/app_ui/widgets/app_constrained_scroll_view.dart';
 import 'package:flutter_instagram_clone_app/packages/app_ui/widgets/app_divider.dart';
 import 'package:flutter_instagram_clone_app/packages/app_ui/widgets/app_scaffold.dart';
+import 'package:flutter_instagram_clone_app/packages/authRepository/auth_repository.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider.value(
-      value: context.read<LoginCubit>(),
+    return BlocProvider(
+      create: (_) => LoginCubit(
+        authRepository: context.read<AuthRepository>(),
+      ),
       child: const LoginView(),
     );
   }
 }
+
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});

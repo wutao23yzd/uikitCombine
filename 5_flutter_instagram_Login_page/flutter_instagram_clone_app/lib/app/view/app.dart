@@ -12,27 +12,17 @@ import 'package:flutter_instagram_clone_app/packages/authRepository/auth_reposit
 final snackbarKey = GlobalKey<AppSnackbarState>();
 
 class App extends StatelessWidget {
-  const App({required this.user, super.key});
-
-  final User user;
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
     return RepositoryProvider(
+      // 全局唯一的数据层
       create: (_) => AuthRepository(),
-      child: MultiBlocProvider(
-        providers: [
-          BlocProvider(
-            create: (context) => LoginCubit(
-              authRepository: context.read<AuthRepository>(),
-            ),
-          ),
-          BlocProvider(
-            create: (context) => AppBloc(
-              authRepository: context.read<AuthRepository>(),
-            ),
-          ),
-        ],
+      child: BlocProvider(
+        create: (context) => AppBloc(
+          authRepository: context.read<AuthRepository>(),
+        ),
         child: const AppView(),
       ),
     );
