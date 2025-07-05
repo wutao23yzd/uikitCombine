@@ -17,7 +17,7 @@ class AuthRepository {
     required String password,
   }) async {
     // TODO: 调真实接口，捕获错误抛出自定义异常
-    await Future.delayed(const Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 1));
 
     // 这里简单用 email+password 构造一个 User
     _controller.add(

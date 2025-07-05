@@ -6,3 +6,7 @@
 说明文档：https://juejin.cn/post/7515377033868361738
 # Demo4-RxSwift 中的 PriorityQueue
 说明文档: https://juejin.cn/post/7517916583731396645
+# Demo5-一步到位：用 Very Good CLI × Bloc × go_router 打好 Flutter 工程地基
+说明文档: https://juejin.cn/post/7523246240474513418
+
+<img src="Screenshots/Jul-05.gi "  alt="登录" width="200" height="400">
