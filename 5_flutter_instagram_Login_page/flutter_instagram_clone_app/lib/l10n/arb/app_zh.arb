@@ -1,0 +1,14 @@
+{
+    "@@locale": "zh",
+    "counterAppBarTitle": "计数器",
+    "@counterAppBarTitle": {
+        "description": "Counter Page AppBar 上显示的文本"
+    },
+    "emailText": "邮箱",
+    "passwordText": "密码",
+    "login": "登录",
+    "forgotText": "忘记密码",
+    "signInWithText": "使用{provider}登录",
+    "noAccountText": "还没有账号？",
+    "signUpText": "注册"
+}

@@ -1,0 +1,9 @@
+arb-dir: lib/l10n/arb
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+nullable-getter: false
+
+# 添加中文支持
+preferred-supported-locales:
+  - en
+  - zh

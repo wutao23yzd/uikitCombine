@@ -1,0 +1,14 @@
+{
+    "@@locale": "en",
+    "counterAppBarTitle": "Counter",
+    "@counterAppBarTitle": {
+        "description": "Text shown in the AppBar of the Counter Page"
+    },
+    "emailText": "Email",
+    "passwordText": "Password",
+    "login": "Login",
+    "forgotText": "Forgot password",
+    "signInWithText": "Sign in with {provider}",
+    "noAccountText": "Do not have an account?",
+    "signUpText": "Sign up"
+}

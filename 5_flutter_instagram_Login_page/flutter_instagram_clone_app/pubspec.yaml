@@ -1,0 +1,72 @@
+name: flutter_instagram_clone_app
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  bloc: ^9.0.0
+  equatable: ^2.0.7
+  flex_color_scheme: ^8.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_gen: ^5.10.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+  go_router: ^16.0.0
+  intl: ^0.20.2
+  pausable_timer: ^3.1.0+3
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.5.4
+  flutter_gen_runner: ^5.10.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/animations/
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+
+flutter_gen:
+  assets:
+    enabled: true
+    outputs:
+      package_parameter_enabled: false
+  output: lib/src/generated/
+  line_length: 80
+
+  integrations:
+    flutter_svg: true
+
