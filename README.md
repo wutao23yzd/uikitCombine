@@ -9,4 +9,12 @@
 # Demo5-一步到位：用 Very Good CLI × Bloc × go_router 打好 Flutter 工程地基
 说明文档: https://juejin.cn/post/7523246240474513418
 
-<img src="Screenshots/Jul-05.gi "  alt="登录" width="200" height="400">
+<img src="Screenshots/Jul-05.gif "  alt="登录" width="200" height="400">
+
+# Demo6-Flutter 弹窗解析：从系统 Dialog 到自定义
+说明文档:
+
+<img src="Screenshots/6_1.png "  alt=“弹窗” width="200" height="400">
+<img src="Screenshots/6_2.png "  alt=“弹窗” width="200" height="400">
+<img src="Screenshots/6_3.png "  alt=“弹窗” width="200" height="400">
+<img src="Screenshots/6_4.png "  alt=“弹窗” width="200" height="400">
