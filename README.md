@@ -14,8 +14,10 @@
 # Demo6-Flutter 弹窗解析：从系统 Dialog 到自定义
 说明文档:
 
+<div style="display: flex; justify-content: center; gap: 10px;">
 <img src="Screenshots/6_1.png "  alt="弹窗" width="200" height="400">
 <img src="Screenshots/6_2.png "  alt="弹窗" width="200" height="400">
 <img src="Screenshots/6_3.png "  alt="弹窗" width="200" height="400">
 <img src="Screenshots/6_4.png " alt="弹窗" width="200" height="400">
+</div>
 
