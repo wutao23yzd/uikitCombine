@@ -21,3 +21,7 @@
 <img src="Screenshots/6_4.png " alt="弹窗" width="200" height="400">
 </div>
 
+# Demo7-Flutter 中使用 NestedScrollView + SliverAppBar 打造关注/粉丝列表（并结合 Bloc 状态管理）
+
+<img src="Screenshots/7_1.gif "  alt="登录" width="200" height="400">
+
