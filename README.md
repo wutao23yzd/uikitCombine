@@ -26,6 +26,6 @@
 <img src="Screenshots/7_1.gif "  alt="" width="200" height="400">
 
 # Demo8-Flutter 个人主页实践笔记
-
+说明文档: https://juejin.cn/post/7530993789634805769
 <img src="Screenshots/8_1.gif "  alt="" width="200" height="400">
 
