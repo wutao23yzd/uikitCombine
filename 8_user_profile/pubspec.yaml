@@ -1,0 +1,48 @@
+name: user_profile
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  bloc: ^9.0.0
+  flex_color_scheme: ^8.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_gen: ^5.11.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+  intl: ^0.20.2
+  sliver_tools: ^0.2.12
+  equatable: ^2.0.7
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.6.0
+  flutter_gen_runner: ^5.11.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/icons/
+    - lib/assets/images/
+
+flutter_gen:
+  assets:
+    enabled: true
+    outputs:
+      package_parameter_enabled: false
+  output: lib/app/generated/
+  line_length: 80
+
+  integrations:
+    flutter_svg: true
+
