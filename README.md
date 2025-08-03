@@ -31,3 +31,8 @@
 
 <img src="Screenshots/8_1.gif "  alt="" width="200" height="400">
 
+# Demo9-SwiftUI 打造 TikTok 风格的滑动短视频播放器
+说明文档: https://juejin.cn/spost/7533641415130644489
+
+<img src="Screenshots/9_1.gif "  alt="" width="200" height="400">
+
