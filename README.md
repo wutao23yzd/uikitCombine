@@ -40,7 +40,7 @@
 说明文档: https://juejin.cn/post/7536119661534347310
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-<img src="Screenshots/10_1.png "  alt="弹窗" width="200" height="400">
-<img src="Screenshots/10_2.png "  alt="弹窗" width="200" height="400">
-<img src="Screenshots/10_3.png "  alt="弹窗" width="200" height="400">
+<img src="Screenshots/10_1.gif "  alt="弹窗" width="200" height="400">
+<img src="Screenshots/10_2.gif "  alt="弹窗" width="200" height="400">
+<img src="Screenshots/10_3.gif "  alt="弹窗" width="200" height="400">
 </div>
