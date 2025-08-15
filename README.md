@@ -44,3 +44,11 @@
 <img src="Screenshots/10_2.gif "  alt="弹窗" width="200" height="400">
 <img src="Screenshots/10_3.gif "  alt="弹窗" width="200" height="400">
 </div>
+
+# Demo11- Flutter 实现类似抖音/TikTok 的竖向滑动短视频播放器
+说明文档:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+<img src="Screenshots/11_1.gif "  alt="弹窗" width="200" height="400">
+<img src="Screenshots/11_2.gif "  alt="弹窗" width="200" height="400">
+</div>
