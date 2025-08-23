@@ -28,6 +28,7 @@ Each demo features:
 | **Demo3** - 崩溃日志手动符号化小记 | Crash log symbolication | [说明文档](https://juejin.cn/post/7515377033868361738) | — |
 | **Demo4** - RxSwift 中的 PriorityQueue | RxSwift, Data structures | [说明文档](https://juejin.cn/post/7517916583731396645) | — |
 | **Demo9** - SwiftUI 打造 TikTok 风格的滑动短视频播放器 | SwiftUI, Video player | [说明文档](https://juejin.cn/spost/7533641415130644489) | <img src="Screenshots/9_1.gif" width="200" /> |
+| **Demo12** - 基于TCA构建Instagram克隆：SwiftUI状态管理的艺术 | SwiftUI, TCA | [说明文档](https://juejin.cn/spost/7533641415130644489) |  <img src="Screenshots/12_1.png" width="200" /> <img src="Screenshots/12_2.png" width="200" /> <img src="Screenshots/12_3.png" width="200" /> <img src="Screenshots/12_4.png" width="200" /> |
 
 ---
 
