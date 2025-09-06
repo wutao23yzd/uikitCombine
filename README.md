@@ -1,20 +1,10 @@
 # 🚀 Flutter × iOS Cross-Platform Demo Collection / Flutter × iOS 跨平台实战 Demo 集合
 
 **EN**  
-A curated collection of demos showcasing **Flutter cross-platform development** and **iOS native (Swift / SwiftUI)** best practices.  
-Each demo features:  
-- A detailed technical article (hosted on Juejin)  
-- Preview screenshots or GIF animations  
-- Key implementation highlights for learning and reuse  
-
----
+Showcasing **Flutter cross-platform** and **iOS native (Swift / SwiftUI)** best practices with articles, previews, and key implementations.
 
 **中文**  
-本仓库收录了我在 **Flutter 跨平台开发** 与 **iOS 原生开发**（Swift、SwiftUI）中的一些实践 Demo，涵盖从 UI 交互到工程架构的多方面案例。  
-每个 Demo 均配有：  
-- 对应的详细说明文档（掘金）  
-- 截图或动图展示  
-- 关键实现与技术要点  
+这里收录了我在 **Flutter 跨平台** 与 **iOS 原生（Swift/SwiftUI）** 的实战 Demo：配套掘金文章、截图/GIF、关键实现要点。
 
 ---
 
