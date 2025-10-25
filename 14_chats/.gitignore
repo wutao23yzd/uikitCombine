@@ -1,0 +1,74 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+build/
+pubspec.lock
+pubspec_overrides.yaml
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Platform specific build folders
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Flutter/Flutter.framework/
+ios/Flutter/App.framework/
+ios/Flutter/engine/
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace/
+macos/Pods/
+macos/Flutter/ephemeral/
+web/.dart_tool/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+*.xccheckout
+*.xcscmblueprint
+
+# IntelliJ / VSCode
+.idea/
+.vscode/
+*.iml
+
+# Environment / local configs
+local.properties
+key.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# Android
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+.cxx/
+captures/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xcuserdata/
+*.moved-aside
+*.pbxuser
+*.xcuserstate
+*.hmap
+*.ipa
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.lock
+!.gitignore
