@@ -1,0 +1,70 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+pubspec.lock
+
+# Flutter build
+build/
+ios/Flutter/flutter_export_environment.sh
+
+# Generated plugin registrants
+**/GeneratedPluginRegistrant.*
+
+# VS Code
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+**/*.swp
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/**/release/
+android/app/**/debug/
+android/build/
+/build
+.gradle/
+
+# Android keystore (不要上传)
+*.jks
+*.keystore
+key.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/build/
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.lock
+
+# Web
+web/.dart_tool/
+web/.flutter-plugins
+web/build/
+
+# Linux/MacOS/Windows (如未使用桌面端可忽略)
+linux/Flutter/ephemeral/
+macos/Flutter/ephemeral/
+windows/Flutter/ephemeral/
+
+# Exported images / temp files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Logs
+*.log
