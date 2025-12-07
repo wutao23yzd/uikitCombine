@@ -1,0 +1,6 @@
+framework module AWESearch {
+  umbrella header "AWESearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "AWESearch",
+  "version": "1.0.0",
+  "summary": "Search business domain",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Demo": "demo@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "ModuleInterface",
+      "source_files": "ModuleInterface/**/*.{swift}"
+    },
+    {
+      "name": "Basic",
+      "source_files": "Basic/**/*.{swift}",
+      "dependencies": {
+        "AWESearch/ModuleInterface": [
+
+        ]
+      }
+    },
+    {
+      "name": "Model",
+      "source_files": "Model/**/*.{swift}",
+      "dependencies": {
+        "AWESearch/ModuleInterface": [
+
+        ]
+      }
+    },
+    {
+      "name": "Service",
+      "source_files": "Service/**/*.{swift}",
+      "dependencies": {
+        "AWESearch/Model": [
+
+        ],
+        "AWESearch/Basic": [
+
+        ],
+        "AWEInfra": [
+
+        ]
+      }
+    },
+    {
+      "name": "BizUI",
+      "source_files": "BizUI/**/*.{swift}",
+      "resource_bundles": {
+        "AWESearchBizUIResources": [
+          "BizUI/Assets/**/*"
+        ]
+      },
+      "dependencies": {
+        "AWESearch/Service": [
+
+        ],
+        "AWEUIResources": [
+
+        ],
+        "AWEUITheme": [
+
+        ]
+      }
+    },
+    {
+      "name": "Impl",
+      "source_files": "Impl/**/*.{swift}",
+      "dependencies": {
+        "AWESearch/ModuleInterface": [
+
+        ],
+        "AWESearch/BizUI": [
+
+        ],
+        "AWELaunchKit": [
+
+        ],
+        "AWEInfra": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
+}

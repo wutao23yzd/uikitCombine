@@ -1,0 +1,6 @@
+framework module AWEFeed {
+  umbrella header "AWEFeed-umbrella.h"
+
+  export *
+  module * { export * }
+}

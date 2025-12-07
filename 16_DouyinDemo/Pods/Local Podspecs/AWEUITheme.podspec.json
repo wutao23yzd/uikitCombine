@@ -1,0 +1,29 @@
+{
+  "name": "AWEUITheme",
+  "version": "1.0.0",
+  "summary": "Global UI theme: colors, fonts, base nav & base view controller",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Demo": "demo@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.{swift}",
+  "dependencies": {
+    "AWEUIResources": [
+
+    ],
+    "AWELaunchKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

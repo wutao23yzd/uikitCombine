@@ -1,0 +1,6 @@
+framework module AWEInfra {
+  umbrella header "AWEInfra-umbrella.h"
+
+  export *
+  module * { export * }
+}

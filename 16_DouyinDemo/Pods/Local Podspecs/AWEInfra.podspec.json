@@ -1,0 +1,26 @@
+{
+  "name": "AWEInfra",
+  "version": "1.0.0",
+  "summary": "Infra: UserService, NetworkClient, InfraBootTask",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Demo": "demo@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.{swift}",
+  "dependencies": {
+    "AWELaunchKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

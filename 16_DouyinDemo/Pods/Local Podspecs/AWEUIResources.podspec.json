@@ -1,0 +1,26 @@
+{
+  "name": "AWEUIResources",
+  "version": "1.0.0",
+  "summary": "Shared UI assets (icons, colors, etc.)",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Demo": "demo@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "resource_bundles": {
+    "AWEUIResources": [
+      "Assets/**/*"
+    ]
+  },
+  "source_files": "Sources/**/*.{swift}",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,6 @@
+framework module Pods_SearchShellApp {
+  umbrella header "Pods-SearchShellApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

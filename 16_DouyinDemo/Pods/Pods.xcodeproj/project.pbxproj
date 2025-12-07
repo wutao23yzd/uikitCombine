@@ -1,0 +1,2749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C7833BC2F15C4CF3DB61C1554D4CA5 /* FeedResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C7B38C4091D2C1A62A779BA876172 /* FeedResources.swift */; };
+		024AA71B4DEDFE653C149F00AE3B9C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		025F220553BEBCB4AF58CD21B5E3FB7B /* AWEUIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14BFB94C7AC64AC4228691CCF7BE2D8 /* AWEUIResources.swift */; };
+		03844F141B176CA6C17992BF8EDB9AF9 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299781345DDF5CF110214B3E6A8057B /* Core.swift */; };
+		141BF48663DB4A1362C34401A64C757F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1BE91D54EC42A33B2049E6028ED3B2A2 /* Pods-SearchShellApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8225F78792176C0D8699767DB74D463B /* Pods-SearchShellApp-dummy.m */; };
+		22387420F6DB092ABD7EA5DAE4BF8EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2E7E789BCCA0B869DC952965427BE87A /* AWESearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B332AC675B13BB00BB423C109EF13 /* AWESearch-dummy.m */; };
+		3B47A12850A6E3F829CB3D99EC00768F /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BC70566E389798B24A02AE5C0EC220 /* SearchService.swift */; };
+		493961B0F2B357A7CA3BB1E552A3E967 /* AWEUIResources-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C553900EEB1A6EB65F0DF3C39521AC1 /* AWEUIResources-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB7C476E189FCCBC4880F67B72E327D /* AWEUIResources-AWEUIResources in Resources */ = {isa = PBXBuildFile; fileRef = 6DBF13FD9D215B34EE210CF58903EC55 /* AWEUIResources-AWEUIResources */; };
+		4C9AD68EE971649E2C471E5E44C4C9B0 /* AWEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD72DA75DBAF947D90D2928D9437FF35 /* AWEBaseViewController.swift */; };
+		4DB4B8158316464B137ECE0513270339 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AD15BA729CC41C5D41F7760FE4CB6E /* FeedViewController.swift */; };
+		514C6E37A688E70F27641CBBCB582691 /* Pods-DouyinHostApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C224171303211A5261F51DDD4BFA1E /* Pods-DouyinHostApp-dummy.m */; };
+		53FE06F0CE97A1EE986C958B71E93CCB /* Pods-DouyinHostApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B92F37A4B273F446DB34C91382D1433 /* Pods-DouyinHostApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540A5F3542502DF03FB91C830018DEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		614063294FF9EDA3C06A96415B427A80 /* AWESearchBizUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F75124EE2B8E5B18527E275928A03A /* AWESearchBizUI.xcassets */; };
+		61F0E02FE9CB6F534D04D632A4B1557C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6258B7F4EACBBD0F20B490FDF9827F94 /* AWEFeedBizUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A742365C3D3AD2E0612DE640583F8 /* AWEFeedBizUI.xcassets */; };
+		66EAB4A9E4EF6C9AD134D08FC03085A5 /* AWEInfra-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4485605F9564DCC277A1E00EA322B1 /* AWEInfra-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C22890C6583DE51FD49913A20817C89 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782F944A0A978207482B5A8B17B0C7E /* SearchResult.swift */; };
+		6EE3F997EBD71E34E0D69EE66B015635 /* AWEUIIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6A437629AD79A80049CFFC3BDA8E67 /* AWEUIIcons.xcassets */; };
+		7186C20F54513173A9B3E61241EA6D36 /* AWEFeed-AWEFeedBizUIResources in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB72CE9313D5F975ECC738D4048AD6 /* AWEFeed-AWEFeedBizUIResources */; };
+		76E8674E2169F32D673C9AC9C9CBCB89 /* SearchEntryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1AD7FBDE5FEF6D2D9F9E1E13258C8 /* SearchEntryProtocol.swift */; };
+		7ADD5D83D880A8FB0560EEA374D524A3 /* AWEFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE2A0DB17AA65E1F1FEB9369207018E /* AWEFont.swift */; };
+		7D249B34D845EDA715A5D6AEB6732543 /* AWELaunchKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 500E4F7F813C0D3B48FAFDFA73B61017 /* AWELaunchKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE1F9F71DFF644586F11743060BBF70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		886D9282AE60F8FD51E6BB78D4FCC08A /* SearchResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9313DF20ABE290173FCF3986E7005533 /* SearchResources.swift */; };
+		9815538A31BE5B77B82232CF1DB505C7 /* AWESearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13861B90EEF8FEFCBC170482220D3C0 /* AWESearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDA80C8A0057D3ADC2237A2C5DC9513 /* FeedImplAndBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC76414D96AEF91B771488CF758031EA /* FeedImplAndBoot.swift */; };
+		9DCA4CDF00C2D94FE1D78A081709059C /* AWESearch-AWESearchBizUIResources in Resources */ = {isa = PBXBuildFile; fileRef = 5A6514E6F01ABE891F2BC26C2C567AA3 /* AWESearch-AWESearchBizUIResources */; };
+		9F879C05ED669C112B9F76C6F49F5429 /* AWEUIResources-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B32E5D5757952CB7BB28E792853B1922 /* AWEUIResources-dummy.m */; };
+		A36047BAACA3A61F33B01113D72D9EB4 /* AWEUITheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C25307A3B1696371DC45F3A1A4DC15F /* AWEUITheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5902575A10F7A8A8B60AA19FBAB7426 /* AWEFeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A50FF5CA1341B94361FB7270FCF3B /* AWEFeed-dummy.m */; };
+		BBC3A5C62665876FB217A70743783B82 /* AWEFeed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA43750A9502B86A35A30DDCEC4135 /* AWEFeed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3DDD62F2137E42630145CC9DC1B38A5 /* AWELaunchKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B51EFFACAA8483AAFF74017D1CC3E4B /* AWELaunchKit-dummy.m */; };
+		C66AD71E2F85CE99B315ACE9A6446F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C68CB6D3EF6D954E1709E927F5EB7A54 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F97D764863E6061CD6C87B5233E33 /* FeedService.swift */; };
+		C9C92C2100100E3513C61DC8B6E0FB94 /* SearchLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47378583287C85865E24ED367306CEDC /* SearchLogger.swift */; };
+		C9CF82200181EB79019572CE114A3065 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F58904C780526188FC64E6B70B19CC /* SearchViewController.swift */; };
+		CADCCF62F434C50F78D81BFA09874CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D320BF472951574B4B37612A247CCA76 /* Pods-FeedShellApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE28BBA4590B88CEC477B73980AD6E64 /* Pods-FeedShellApp-dummy.m */; };
+		D5725169335B0891BCB23C5E78FBE593 /* InfraCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E3A1D1A63F1C18C422C372FDB7A26 /* InfraCore.swift */; };
+		D8591B1F0FD200E018AE543F317FA85C /* AWEInfra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0B394BE5569CBC1F9619092BFBAA6D /* AWEInfra-dummy.m */; };
+		DE1AD227E200E291637C8DBED36ADB16 /* AWEUITheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7F59428A6A34A34C20DF77C91D8B4D /* AWEUITheme-dummy.m */; };
+		EC565422D8CB582C1FC88164BB428307 /* Pods-SearchShellApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9AABCA221A4449D54536A8D7C0C154 /* Pods-SearchShellApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0130B1C70BDB373D16C3D7C494FF188 /* AWEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69AA05787BEE76A1110A8258FC7CF2 /* AWEColor.swift */; };
+		F0CF708DCC8F106ED7F2ECA4708D1A3C /* SearchImplAndBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406DD643AC7AC0600F72E70311E62F3 /* SearchImplAndBoot.swift */; };
+		F10EF914198456E75EC5FA4D0EAB1C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F3433DCDAF439AFBE21AD29978894384 /* UIThemeBootTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DFC75197D6A339C1CC10F840C707A /* UIThemeBootTask.swift */; };
+		F5A95B6090597052F314AA4FA4386EE5 /* FeedEntryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567C0C1C015A3F961C406664D21EDC3 /* FeedEntryProtocol.swift */; };
+		FBAF671E547AE549930AF1C5266337D9 /* AWENavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30832E323807E4BA3B2D6CC3A8B1C5B /* AWENavigationController.swift */; };
+		FF480EC564BB6CAD7C929F0ECC1BA378 /* Pods-FeedShellApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5338262331872B2577DD604AB230B221 /* Pods-FeedShellApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068C01F00741BA94186E81AE39D404A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D97038CC23CED94D084D31895BA7C91;
+			remoteInfo = AWEUIResources;
+		};
+		0BF96A461FD6D5EDA1497024B0E1310F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		2A532EC2E2A3708A25EECC5473349974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9295FEE2B116D6603CD41B2FB479684;
+			remoteInfo = AWEInfra;
+		};
+		2C228DF2E6363A253A58845D7D0C86E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC63EF0DB1CC324DD72A496DA617B2C2;
+			remoteInfo = AWEFeed;
+		};
+		2E1F950CEFA0DBA78BC0F6AF759F8002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C387B5C637732DAC194E2A944361678F;
+			remoteInfo = AWESearch;
+		};
+		38F5CE431EC05AEC4943ED387306821F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9295FEE2B116D6603CD41B2FB479684;
+			remoteInfo = AWEInfra;
+		};
+		40896E248649B37A2AC5FFF69ECA1467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14FFCE8DA1687B23DECB53DE17D79D70;
+			remoteInfo = "AWEUIResources-AWEUIResources";
+		};
+		446538B97B11E174F42E40C95F3F3274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC63EF0DB1CC324DD72A496DA617B2C2;
+			remoteInfo = AWEFeed;
+		};
+		4C4A9B2244D7F89B32369D0F5D79C3D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D97038CC23CED94D084D31895BA7C91;
+			remoteInfo = AWEUIResources;
+		};
+		4EEF680FE6D5AA95656628DC770F4389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D97038CC23CED94D084D31895BA7C91;
+			remoteInfo = AWEUIResources;
+		};
+		51A01984478263B2034433013DEBA3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BD2B2DA36C195AAE54F8152BDDD2F7;
+			remoteInfo = AWEUITheme;
+		};
+		5217E0A6D9637508A1C8167350F9D3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9295FEE2B116D6603CD41B2FB479684;
+			remoteInfo = AWEInfra;
+		};
+		57A578DA88B9FAE5F6C3C79FBE1DBA7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		6400B336B6BE70A12662355A56A669FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C387B5C637732DAC194E2A944361678F;
+			remoteInfo = AWESearch;
+		};
+		66FF2F3E7F972C12CFDBB968EC8D78CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		6D3ED2ED49D3F1BC1B8F9420F85C383F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9295FEE2B116D6603CD41B2FB479684;
+			remoteInfo = AWEInfra;
+		};
+		6DCEE0398EC593C9C12AC11178F92CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D97038CC23CED94D084D31895BA7C91;
+			remoteInfo = AWEUIResources;
+		};
+		789B5890CFB16F0CFE9079E30B77C940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C387B5C637732DAC194E2A944361678F;
+			remoteInfo = AWESearch;
+		};
+		99953CA469ED1C7B27DB8720FC352F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BA68BA48020F94588C369233E8CAEC;
+			remoteInfo = "AWESearch-AWESearchBizUIResources";
+		};
+		9AC8DA5389BD13188DAAB953DFA10D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BD2B2DA36C195AAE54F8152BDDD2F7;
+			remoteInfo = AWEUITheme;
+		};
+		AD216F23F291F849B8D9532001131CCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		ADBADE91B9DE19BF541807882723EE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		B227B42738E80FC33CEE2D361F757B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BD2B2DA36C195AAE54F8152BDDD2F7;
+			remoteInfo = AWEUITheme;
+		};
+		B45E40B34C5A4EFE468C331C3F774A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D97038CC23CED94D084D31895BA7C91;
+			remoteInfo = AWEUIResources;
+		};
+		B8484BEB215F88AAD7E18F7598B0670D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		BDEF285865D8607184518B310BC92134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD649F94200AD76A2DBFFB98D291E47;
+			remoteInfo = AWELaunchKit;
+		};
+		BE1E80169F633A0B02C5BEBEDCE38954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D97038CC23CED94D084D31895BA7C91;
+			remoteInfo = AWEUIResources;
+		};
+		DC8C42137EFFBC67118131CE4F091CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C387B5C637732DAC194E2A944361678F;
+			remoteInfo = AWESearch;
+		};
+		E996B1F3A9902A6D780884748CF6621F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BD2B2DA36C195AAE54F8152BDDD2F7;
+			remoteInfo = AWEUITheme;
+		};
+		EA92CF94C78A5B1E7C5FB249F0F2A7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006F484CCFC171F345897E60C478261A;
+			remoteInfo = "AWEFeed-AWEFeedBizUIResources";
+		};
+		F57EE343615B5F50C394E930A76756FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9295FEE2B116D6603CD41B2FB479684;
+			remoteInfo = AWEInfra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012134044A0EC540537C77F2B743B8C6 /* Pods-FeedShellApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeedShellApp-Info.plist"; sourceTree = "<group>"; };
+		077333C491D364B9813941FB1F051E27 /* AWESearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AWESearch-Info.plist"; sourceTree = "<group>"; };
+		096B633B6EA5A451160990D8C5B12264 /* Pods-SearchShellApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SearchShellApp"; path = Pods_SearchShellApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A1AD7FBDE5FEF6D2D9F9E1E13258C8 /* SearchEntryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchEntryProtocol.swift; path = ModuleInterface/SearchEntryProtocol.swift; sourceTree = "<group>"; };
+		0B171FF7FC7EF0CBE5F06678D2689E88 /* AWEInfra */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWEInfra; path = AWEInfra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB263025F9F5CD8BABA0CA8BC42BF80 /* AWEUIResources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEUIResources.debug.xcconfig; sourceTree = "<group>"; };
+		0D0A37E30125A5188F55C034FBC394E0 /* AWESearch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AWESearch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1782F944A0A978207482B5A8B17B0C7E /* SearchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResult.swift; path = Model/SearchResult.swift; sourceTree = "<group>"; };
+		179E3A1D1A63F1C18C422C372FDB7A26 /* InfraCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfraCore.swift; path = Sources/InfraCore.swift; sourceTree = "<group>"; };
+		1B0B994C4C5730FEAB1BD84E1D4F9D69 /* AWESearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWESearch-prefix.pch"; sourceTree = "<group>"; };
+		1EE976121CEA1718443F6BC39F504F19 /* AWEUITheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEUITheme.release.xcconfig; sourceTree = "<group>"; };
+		1FE2197BE0E097862D55090808D0E233 /* Pods-SearchShellApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SearchShellApp.debug.xcconfig"; sourceTree = "<group>"; };
+		210BFF431541C2890567B68CF78ADAC3 /* Pods-SearchShellApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SearchShellApp.release.xcconfig"; sourceTree = "<group>"; };
+		2299781345DDF5CF110214B3E6A8057B /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Sources/Core.swift; sourceTree = "<group>"; };
+		24E91C04BDA1669135DCED6CA1A19A30 /* AWEUIResources */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWEUIResources; path = AWEUIResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		250301C0587241589DD6FFD11506AF3B /* AWEUIResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AWEUIResources-Info.plist"; sourceTree = "<group>"; };
+		2709A5F757AB18A64579D5DD48A66D72 /* AWEUITheme */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWEUITheme; path = AWEUITheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9A50FF5CA1341B94361FB7270FCF3B /* AWEFeed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWEFeed-dummy.m"; sourceTree = "<group>"; };
+		2D15B12A2517715069AE1D2037A4F42F /* AWEInfra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWEInfra.modulemap; sourceTree = "<group>"; };
+		2DF5D5BE6D6F19D619691189586D8AEE /* AWEFeed */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWEFeed; path = AWEFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F69AA05787BEE76A1110A8258FC7CF2 /* AWEColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWEColor.swift; path = Sources/AWEColor.swift; sourceTree = "<group>"; };
+		2F6D70B9AB10913037B7EBF0CAF863CA /* Pods-FeedShellApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeedShellApp.modulemap"; sourceTree = "<group>"; };
+		332308B93BE2868B1D68D5F0E13D4C09 /* AWEInfra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEInfra.debug.xcconfig; sourceTree = "<group>"; };
+		3442A029951286549152185EEB0717C1 /* AWEInfra-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AWEInfra-Info.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BF6E966948195BBE40260FC83D5AF37 /* Pods-FeedShellApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeedShellApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C553900EEB1A6EB65F0DF3C39521AC1 /* AWEUIResources-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEUIResources-umbrella.h"; sourceTree = "<group>"; };
+		40F5BE13F5CEE0A2C8FB2BA903D89546 /* AWELaunchKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWELaunchKit; path = AWELaunchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4216E66F2354BC03044F42DEE8447410 /* Pods-FeedShellApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FeedShellApp"; path = Pods_FeedShellApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47378583287C85865E24ED367306CEDC /* SearchLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchLogger.swift; path = Basic/SearchLogger.swift; sourceTree = "<group>"; };
+		4B0B394BE5569CBC1F9619092BFBAA6D /* AWEInfra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWEInfra-dummy.m"; sourceTree = "<group>"; };
+		4BCF1CE7CE4A434C4C911B6E4AC3F421 /* AWEUIResources.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWEUIResources.modulemap; sourceTree = "<group>"; };
+		4BFE9D7A28D86EA3E889EE65A9A05281 /* AWEInfra-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEInfra-prefix.pch"; sourceTree = "<group>"; };
+		4FB5C86143AE3C4F911C5CA6F51C8829 /* Pods-FeedShellApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeedShellApp-frameworks.sh"; sourceTree = "<group>"; };
+		500E4F7F813C0D3B48FAFDFA73B61017 /* AWELaunchKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWELaunchKit-umbrella.h"; sourceTree = "<group>"; };
+		527B332AC675B13BB00BB423C109EF13 /* AWESearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWESearch-dummy.m"; sourceTree = "<group>"; };
+		5338262331872B2577DD604AB230B221 /* Pods-FeedShellApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeedShellApp-umbrella.h"; sourceTree = "<group>"; };
+		5606B018F3BADE5654233718E30D9A78 /* AWELaunchKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AWELaunchKit-Info.plist"; sourceTree = "<group>"; };
+		582BF2D100D332808FFCA3A65DB23211 /* AWELaunchKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWELaunchKit-prefix.pch"; sourceTree = "<group>"; };
+		58C46C3C6E81DACC97D86271DC7518D9 /* AWESearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWESearch.modulemap; sourceTree = "<group>"; };
+		5A6514E6F01ABE891F2BC26C2C567AA3 /* AWESearch-AWESearchBizUIResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AWESearch-AWESearchBizUIResources"; path = AWESearchBizUIResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7F59428A6A34A34C20DF77C91D8B4D /* AWEUITheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWEUITheme-dummy.m"; sourceTree = "<group>"; };
+		5C25307A3B1696371DC45F3A1A4DC15F /* AWEUITheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEUITheme-umbrella.h"; sourceTree = "<group>"; };
+		5DFB72CE9313D5F975ECC738D4048AD6 /* AWEFeed-AWEFeedBizUIResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AWEFeed-AWEFeedBizUIResources"; path = AWEFeedBizUIResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6A437629AD79A80049CFFC3BDA8E67 /* AWEUIIcons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AWEUIIcons.xcassets; path = Assets/AWEUIIcons.xcassets; sourceTree = "<group>"; };
+		602F97D764863E6061CD6C87B5233E33 /* FeedService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedService.swift; path = Service/FeedService.swift; sourceTree = "<group>"; };
+		61B9D5C0A45910D8245709C222C001AD /* Pods-FeedShellApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedShellApp.release.xcconfig"; sourceTree = "<group>"; };
+		63F75124EE2B8E5B18527E275928A03A /* AWESearchBizUI.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AWESearchBizUI.xcassets; path = BizUI/Assets/AWESearchBizUI.xcassets; sourceTree = "<group>"; };
+		656B8C82BB5BD5013525959E6227A822 /* ResourceBundle-AWEFeedBizUIResources-AWEFeed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AWEFeedBizUIResources-AWEFeed-Info.plist"; sourceTree = "<group>"; };
+		69F4948678619C351060FC113128EE31 /* AWEUITheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AWEUITheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D6C06014AF7ED6E86F1E6AE550C2DC0 /* AWEFeed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AWEFeed-Info.plist"; sourceTree = "<group>"; };
+		6D83743C541F70CE1520028728B91AF6 /* AWESearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWESearch.release.xcconfig; sourceTree = "<group>"; };
+		6DBF13FD9D215B34EE210CF58903EC55 /* AWEUIResources-AWEUIResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AWEUIResources-AWEUIResources"; path = AWEUIResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0154BE4E5725B8597ABF0E48883411 /* Pods-FeedShellApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedShellApp.debug.xcconfig"; sourceTree = "<group>"; };
+		75895B07DA61BF827C1607DA7C0960A5 /* Pods-SearchShellApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SearchShellApp-frameworks.sh"; sourceTree = "<group>"; };
+		79221C58CFD0E358FF9A17579B7B1D95 /* AWEFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEFeed.release.xcconfig; sourceTree = "<group>"; };
+		7B51EFFACAA8483AAFF74017D1CC3E4B /* AWELaunchKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWELaunchKit-dummy.m"; sourceTree = "<group>"; };
+		7DAEDF069AD5BD70FFDFCBFD4691778F /* Pods-DouyinHostApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DouyinHostApp.modulemap"; sourceTree = "<group>"; };
+		8225F78792176C0D8699767DB74D463B /* Pods-SearchShellApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SearchShellApp-dummy.m"; sourceTree = "<group>"; };
+		85A764925B0E6C84E499711A91CC07EE /* Pods-DouyinHostApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DouyinHostApp"; path = Pods_DouyinHostApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3A742365C3D3AD2E0612DE640583F8 /* AWEFeedBizUI.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AWEFeedBizUI.xcassets; path = BizUI/Assets/AWEFeedBizUI.xcassets; sourceTree = "<group>"; };
+		9313DF20ABE290173FCF3986E7005533 /* SearchResources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResources.swift; path = BizUI/SearchResources.swift; sourceTree = "<group>"; };
+		9B92F37A4B273F446DB34C91382D1433 /* Pods-DouyinHostApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DouyinHostApp-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4A1FAC43BCA64FBD606BE54BCACAC3 /* ResourceBundle-AWEUIResources-AWEUIResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AWEUIResources-AWEUIResources-Info.plist"; sourceTree = "<group>"; };
+		9F9AABCA221A4449D54536A8D7C0C154 /* Pods-SearchShellApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SearchShellApp-umbrella.h"; sourceTree = "<group>"; };
+		A152D79A12E67D6824B70B99E448981E /* AWEFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEFeed.debug.xcconfig; sourceTree = "<group>"; };
+		A1F1FEDF8CD754F7CF7F109912E1C9ED /* Pods-FeedShellApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeedShellApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A21749C9191FE4423EFF6692E8EF6AC5 /* ResourceBundle-AWESearchBizUIResources-AWESearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AWESearchBizUIResources-AWESearch-Info.plist"; sourceTree = "<group>"; };
+		A2662979B5AD683D16064E475B4462EB /* Pods-SearchShellApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SearchShellApp.modulemap"; sourceTree = "<group>"; };
+		A30832E323807E4BA3B2D6CC3A8B1C5B /* AWENavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWENavigationController.swift; path = Sources/AWENavigationController.swift; sourceTree = "<group>"; };
+		A38490892BD8BB44AEA6C31C9DD6F7DA /* AWEInfra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEInfra.release.xcconfig; sourceTree = "<group>"; };
+		A700814DD54BB0D871A9DBFFA9A54597 /* AWEFeed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWEFeed.modulemap; sourceTree = "<group>"; };
+		A931B299832902166E90ADB49FB33DBF /* Pods-SearchShellApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SearchShellApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A98BB14B6D9F014C4E46DE343315F32B /* AWEUITheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEUITheme.debug.xcconfig; sourceTree = "<group>"; };
+		B27D4ECE0C1B81AE8E13952BF2660F52 /* AWEInfra.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AWEInfra.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B32E5D5757952CB7BB28E792853B1922 /* AWEUIResources-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWEUIResources-dummy.m"; sourceTree = "<group>"; };
+		B64DFC75197D6A339C1CC10F840C707A /* UIThemeBootTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIThemeBootTask.swift; path = Sources/UIThemeBootTask.swift; sourceTree = "<group>"; };
+		B7BDA60A6DADCE9530BBAD738DF63E36 /* Pods-DouyinHostApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DouyinHostApp-frameworks.sh"; sourceTree = "<group>"; };
+		B7C224171303211A5261F51DDD4BFA1E /* Pods-DouyinHostApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DouyinHostApp-dummy.m"; sourceTree = "<group>"; };
+		B9BC70566E389798B24A02AE5C0EC220 /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchService.swift; path = Service/SearchService.swift; sourceTree = "<group>"; };
+		B9C498626F7A0E581EB5EF4907B0BD36 /* AWEUIResources.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AWEUIResources.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C03D980F22708C34C64A85443435EF85 /* AWEUIResources-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEUIResources-prefix.pch"; sourceTree = "<group>"; };
+		C42730F3B27FDE4F5A1FFBCB24144C43 /* Pods-DouyinHostApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyinHostApp.release.xcconfig"; sourceTree = "<group>"; };
+		C5214DD7D3E53A62D6F092ED6FBD8CDC /* AWELaunchKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWELaunchKit.modulemap; sourceTree = "<group>"; };
+		C815FA86D1FFEBA76E7DDB2E4FDBB7DA /* AWEUIResources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWEUIResources.release.xcconfig; sourceTree = "<group>"; };
+		CA4CC9C89B1FAC935848046812B04FAE /* AWEFeed.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AWEFeed.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB844B5FDC6F581B1F353E32A0AC4DAC /* AWEFeed-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEFeed-prefix.pch"; sourceTree = "<group>"; };
+		CC4941D505672C557143B94B1F5D9AB5 /* AWESearch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWESearch; path = AWESearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD72DA75DBAF947D90D2928D9437FF35 /* AWEBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWEBaseViewController.swift; path = Sources/AWEBaseViewController.swift; sourceTree = "<group>"; };
+		CDA09EB2114B3BF7A4458769741EEBED /* Pods-SearchShellApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SearchShellApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE4485605F9564DCC277A1E00EA322B1 /* AWEInfra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEInfra-umbrella.h"; sourceTree = "<group>"; };
+		D13861B90EEF8FEFCBC170482220D3C0 /* AWESearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWESearch-umbrella.h"; sourceTree = "<group>"; };
+		D1AD15BA729CC41C5D41F7760FE4CB6E /* FeedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = BizUI/FeedViewController.swift; sourceTree = "<group>"; };
+		D406DD643AC7AC0600F72E70311E62F3 /* SearchImplAndBoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchImplAndBoot.swift; path = Impl/SearchImplAndBoot.swift; sourceTree = "<group>"; };
+		D407BDB2376C7A0E5D6A7AB3DC9C579C /* AWEUITheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWEUITheme.modulemap; sourceTree = "<group>"; };
+		D47BD5DD74A451EDC9088C858CF51087 /* AWELaunchKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AWELaunchKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8CA43750A9502B86A35A30DDCEC4135 /* AWEFeed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEFeed-umbrella.h"; sourceTree = "<group>"; };
+		DC04D71884A8915C6D10D17BC450C0AF /* AWEUITheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWEUITheme-prefix.pch"; sourceTree = "<group>"; };
+		DC72C44D17DD1DAD28B45248EB3896DD /* AWELaunchKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWELaunchKit.debug.xcconfig; sourceTree = "<group>"; };
+		E14BFB94C7AC64AC4228691CCF7BE2D8 /* AWEUIResources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWEUIResources.swift; path = Sources/AWEUIResources.swift; sourceTree = "<group>"; };
+		E1F58904C780526188FC64E6B70B19CC /* SearchViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = BizUI/SearchViewController.swift; sourceTree = "<group>"; };
+		E2177DB5FA528DB32D65977C5C52A37C /* Pods-SearchShellApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SearchShellApp-Info.plist"; sourceTree = "<group>"; };
+		E49C7B38C4091D2C1A62A779BA876172 /* FeedResources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedResources.swift; path = BizUI/FeedResources.swift; sourceTree = "<group>"; };
+		E567C0C1C015A3F961C406664D21EDC3 /* FeedEntryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedEntryProtocol.swift; path = ModuleInterface/FeedEntryProtocol.swift; sourceTree = "<group>"; };
+		EC9558C519530564AF10C2D32F56DD59 /* Pods-DouyinHostApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyinHostApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECE2A0DB17AA65E1F1FEB9369207018E /* AWEFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWEFont.swift; path = Sources/AWEFont.swift; sourceTree = "<group>"; };
+		F08897D290011DB728AB41F540804B0C /* Pods-DouyinHostApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyinHostApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F68B14B526AF108179BF4AE7DD3C3AFC /* Pods-DouyinHostApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DouyinHostApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6D1B3CFF3AEB8539D85378582719A15 /* Pods-DouyinHostApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyinHostApp-Info.plist"; sourceTree = "<group>"; };
+		F72EC60A3FFCE4B257A459E7203E7D94 /* AWEUITheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AWEUITheme-Info.plist"; sourceTree = "<group>"; };
+		FBCAC115B61862B1DF3107A06262AA24 /* AWELaunchKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWELaunchKit.release.xcconfig; sourceTree = "<group>"; };
+		FC76414D96AEF91B771488CF758031EA /* FeedImplAndBoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedImplAndBoot.swift; path = Impl/FeedImplAndBoot.swift; sourceTree = "<group>"; };
+		FD4F62D0F45EB5F53B1F5DFD4794F5C5 /* AWESearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWESearch.debug.xcconfig; sourceTree = "<group>"; };
+		FE28BBA4590B88CEC477B73980AD6E64 /* Pods-FeedShellApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeedShellApp-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2699EA016657A30E51034A305B7F9EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540A5F3542502DF03FB91C830018DEC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C337A73D1F1CA41781D9B46C65B44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66AD71E2F85CE99B315ACE9A6446F80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DB7A64CF0FFAB20AA885D25130C88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141BF48663DB4A1362C34401A64C757F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390852F4C4409C1B4452CAA629772AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADCCF62F434C50F78D81BFA09874CAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49917F87E54B85E35E887C66589F56C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE1F9F71DFF644586F11743060BBF70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F5CF1A6ED3282EEF37CFFF49B549C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7C922C86465E5B4436A957CF201FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024AA71B4DEDFE653C149F00AE3B9C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0807F0F83CC67B4ACF2442484EED32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22387420F6DB092ABD7EA5DAE4BF8EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC80D4A93A7267FF7DB12E70E5A7B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA0B4403568351B042BA88D05B7388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB56E707875B5C9AA680AEE501836C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F0E02FE9CB6F534D04D632A4B1557C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B252C580BF62D9EF86330AA4CDAE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10EF914198456E75EC5FA4D0EAB1C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041CBC5D5CD08467FBC2A4D4FA61DBA4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B27D4ECE0C1B81AE8E13952BF2660F52 /* AWEInfra.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0829B3CA0309764862EA55643D34995B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7835C6337115471EC535A344ED6118BB /* Pods-DouyinHostApp */,
+				8DC9AA6B281ACB66CA93E20EF8D77AE6 /* Pods-FeedShellApp */,
+				CCD9583E4EBC489FB63644D8A4062867 /* Pods-SearchShellApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		08E7836D812AFEEE8ABAD590735B6010 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5214DD7D3E53A62D6F092ED6FBD8CDC /* AWELaunchKit.modulemap */,
+				7B51EFFACAA8483AAFF74017D1CC3E4B /* AWELaunchKit-dummy.m */,
+				5606B018F3BADE5654233718E30D9A78 /* AWELaunchKit-Info.plist */,
+				582BF2D100D332808FFCA3A65DB23211 /* AWELaunchKit-prefix.pch */,
+				500E4F7F813C0D3B48FAFDFA73B61017 /* AWELaunchKit-umbrella.h */,
+				DC72C44D17DD1DAD28B45248EB3896DD /* AWELaunchKit.debug.xcconfig */,
+				FBCAC115B61862B1DF3107A06262AA24 /* AWELaunchKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/AWELaunchKit";
+			sourceTree = "<group>";
+		};
+		22F2775A2E680F2B3CEF6CC9F1C1A4E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69F4948678619C351060FC113128EE31 /* AWEUITheme.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2861B5F4F7D624844A865904ABBD0E1D /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				FC76414D96AEF91B771488CF758031EA /* FeedImplAndBoot.swift */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		365977BF9D2C012AC93443427B12E49A /* AWEFeed */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF4C24576BEB2CD1A50E8FCA1D08FE /* BizUI */,
+				2861B5F4F7D624844A865904ABBD0E1D /* Impl */,
+				EEB07DBF732181EEC4A07C1DC9AE48F9 /* ModuleInterface */,
+				B9DAB1628CC0267A75807985B9C9CBE5 /* Pod */,
+				555B3FEB95138CC6BBA168D118D6EFD3 /* Service */,
+				69E47A4E4180384606E0A56FB4A8A58C /* Support Files */,
+			);
+			name = AWEFeed;
+			path = ../Modules/Feed;
+			sourceTree = "<group>";
+		};
+		4076F9CEA943944E1E2B62B43D11FE01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BCF1CE7CE4A434C4C911B6E4AC3F421 /* AWEUIResources.modulemap */,
+				B32E5D5757952CB7BB28E792853B1922 /* AWEUIResources-dummy.m */,
+				250301C0587241589DD6FFD11506AF3B /* AWEUIResources-Info.plist */,
+				C03D980F22708C34C64A85443435EF85 /* AWEUIResources-prefix.pch */,
+				3C553900EEB1A6EB65F0DF3C39521AC1 /* AWEUIResources-umbrella.h */,
+				0BB263025F9F5CD8BABA0CA8BC42BF80 /* AWEUIResources.debug.xcconfig */,
+				C815FA86D1FFEBA76E7DDB2E4FDBB7DA /* AWEUIResources.release.xcconfig */,
+				9F4A1FAC43BCA64FBD606BE54BCACAC3 /* ResourceBundle-AWEUIResources-AWEUIResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/AWEUIResources";
+			sourceTree = "<group>";
+		};
+		42CA0FD131853D2DEABA8A8C10D3A2E8 /* AWEInfra */ = {
+			isa = PBXGroup;
+			children = (
+				179E3A1D1A63F1C18C422C372FDB7A26 /* InfraCore.swift */,
+				041CBC5D5CD08467FBC2A4D4FA61DBA4 /* Pod */,
+				C5DA70B46B27BCAEF256780D8FE4AF41 /* Support Files */,
+			);
+			name = AWEInfra;
+			path = ../Infra;
+			sourceTree = "<group>";
+		};
+		49E0ED35C8086772236C52818E2FB2CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58C46C3C6E81DACC97D86271DC7518D9 /* AWESearch.modulemap */,
+				527B332AC675B13BB00BB423C109EF13 /* AWESearch-dummy.m */,
+				077333C491D364B9813941FB1F051E27 /* AWESearch-Info.plist */,
+				1B0B994C4C5730FEAB1BD84E1D4F9D69 /* AWESearch-prefix.pch */,
+				D13861B90EEF8FEFCBC170482220D3C0 /* AWESearch-umbrella.h */,
+				FD4F62D0F45EB5F53B1F5DFD4794F5C5 /* AWESearch.debug.xcconfig */,
+				6D83743C541F70CE1520028728B91AF6 /* AWESearch.release.xcconfig */,
+				A21749C9191FE4423EFF6692E8EF6AC5 /* ResourceBundle-AWESearchBizUIResources-AWESearch-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/AWESearch";
+			sourceTree = "<group>";
+		};
+		4CA5D7F64891E56AE9915C4D89920AAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D407BDB2376C7A0E5D6A7AB3DC9C579C /* AWEUITheme.modulemap */,
+				5A7F59428A6A34A34C20DF77C91D8B4D /* AWEUITheme-dummy.m */,
+				F72EC60A3FFCE4B257A459E7203E7D94 /* AWEUITheme-Info.plist */,
+				DC04D71884A8915C6D10D17BC450C0AF /* AWEUITheme-prefix.pch */,
+				5C25307A3B1696371DC45F3A1A4DC15F /* AWEUITheme-umbrella.h */,
+				A98BB14B6D9F014C4E46DE343315F32B /* AWEUITheme.debug.xcconfig */,
+				1EE976121CEA1718443F6BC39F504F19 /* AWEUITheme.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/AWEUITheme";
+			sourceTree = "<group>";
+		};
+		555B3FEB95138CC6BBA168D118D6EFD3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				602F97D764863E6061CD6C87B5233E33 /* FeedService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		5C058C720FB7D91EAF6457FC23D65E92 /* AWELaunchKit */ = {
+			isa = PBXGroup;
+			children = (
+				2299781345DDF5CF110214B3E6A8057B /* Core.swift */,
+				9E636AA1E8CE254ACAC04EE1E5038C8F /* Pod */,
+				08E7836D812AFEEE8ABAD590735B6010 /* Support Files */,
+			);
+			name = AWELaunchKit;
+			path = ../LaunchKit;
+			sourceTree = "<group>";
+		};
+		5EAA837AF7C9A838AB6816242C004B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5D5BE6D6F19D619691189586D8AEE /* AWEFeed */,
+				5DFB72CE9313D5F975ECC738D4048AD6 /* AWEFeed-AWEFeedBizUIResources */,
+				0B171FF7FC7EF0CBE5F06678D2689E88 /* AWEInfra */,
+				40F5BE13F5CEE0A2C8FB2BA903D89546 /* AWELaunchKit */,
+				CC4941D505672C557143B94B1F5D9AB5 /* AWESearch */,
+				5A6514E6F01ABE891F2BC26C2C567AA3 /* AWESearch-AWESearchBizUIResources */,
+				24E91C04BDA1669135DCED6CA1A19A30 /* AWEUIResources */,
+				6DBF13FD9D215B34EE210CF58903EC55 /* AWEUIResources-AWEUIResources */,
+				2709A5F757AB18A64579D5DD48A66D72 /* AWEUITheme */,
+				85A764925B0E6C84E499711A91CC07EE /* Pods-DouyinHostApp */,
+				4216E66F2354BC03044F42DEE8447410 /* Pods-FeedShellApp */,
+				096B633B6EA5A451160990D8C5B12264 /* Pods-SearchShellApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6592AFBAB9DE64A02792D3C3CA0450BF /* AWESearch */ = {
+			isa = PBXGroup;
+			children = (
+				E9030CEBE418E3BAE98DD341134A179F /* Basic */,
+				90677A78CC78005F23F2E80242C9779A /* BizUI */,
+				ED4E724B7E24C93D298517F6305BB846 /* Impl */,
+				CEA1192DDC3857DE5634CFF88C208F4B /* Model */,
+				EF3E255A2784E4C6B17D89738AD37770 /* ModuleInterface */,
+				B27585EABB0AE51FE6485FE015F2BA9B /* Pod */,
+				E03564706E9FB1A8CBD2B66B7D0725EC /* Service */,
+				49E0ED35C8086772236C52818E2FB2CC /* Support Files */,
+			);
+			name = AWESearch;
+			path = ../Modules/Search;
+			sourceTree = "<group>";
+		};
+		69E47A4E4180384606E0A56FB4A8A58C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A700814DD54BB0D871A9DBFFA9A54597 /* AWEFeed.modulemap */,
+				2B9A50FF5CA1341B94361FB7270FCF3B /* AWEFeed-dummy.m */,
+				6D6C06014AF7ED6E86F1E6AE550C2DC0 /* AWEFeed-Info.plist */,
+				CB844B5FDC6F581B1F353E32A0AC4DAC /* AWEFeed-prefix.pch */,
+				D8CA43750A9502B86A35A30DDCEC4135 /* AWEFeed-umbrella.h */,
+				A152D79A12E67D6824B70B99E448981E /* AWEFeed.debug.xcconfig */,
+				79221C58CFD0E358FF9A17579B7B1D95 /* AWEFeed.release.xcconfig */,
+				656B8C82BB5BD5013525959E6227A822 /* ResourceBundle-AWEFeedBizUIResources-AWEFeed-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/AWEFeed";
+			sourceTree = "<group>";
+		};
+		7835C6337115471EC535A344ED6118BB /* Pods-DouyinHostApp */ = {
+			isa = PBXGroup;
+			children = (
+				7DAEDF069AD5BD70FFDFCBFD4691778F /* Pods-DouyinHostApp.modulemap */,
+				F68B14B526AF108179BF4AE7DD3C3AFC /* Pods-DouyinHostApp-acknowledgements.markdown */,
+				EC9558C519530564AF10C2D32F56DD59 /* Pods-DouyinHostApp-acknowledgements.plist */,
+				B7C224171303211A5261F51DDD4BFA1E /* Pods-DouyinHostApp-dummy.m */,
+				B7BDA60A6DADCE9530BBAD738DF63E36 /* Pods-DouyinHostApp-frameworks.sh */,
+				F6D1B3CFF3AEB8539D85378582719A15 /* Pods-DouyinHostApp-Info.plist */,
+				9B92F37A4B273F446DB34C91382D1433 /* Pods-DouyinHostApp-umbrella.h */,
+				F08897D290011DB728AB41F540804B0C /* Pods-DouyinHostApp.debug.xcconfig */,
+				C42730F3B27FDE4F5A1FFBCB24144C43 /* Pods-DouyinHostApp.release.xcconfig */,
+			);
+			name = "Pods-DouyinHostApp";
+			path = "Target Support Files/Pods-DouyinHostApp";
+			sourceTree = "<group>";
+		};
+		797C58AABC60AE2C3A954082689246A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365977BF9D2C012AC93443427B12E49A /* AWEFeed */,
+				42CA0FD131853D2DEABA8A8C10D3A2E8 /* AWEInfra */,
+				5C058C720FB7D91EAF6457FC23D65E92 /* AWELaunchKit */,
+				6592AFBAB9DE64A02792D3C3CA0450BF /* AWESearch */,
+				A2A83E41D49ADA0EEC2E8DA3183870B9 /* AWEUIResources */,
+				91C45B0BD2F51E3FB0BA8C0AB1438456 /* AWEUITheme */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8DC9AA6B281ACB66CA93E20EF8D77AE6 /* Pods-FeedShellApp */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D70B9AB10913037B7EBF0CAF863CA /* Pods-FeedShellApp.modulemap */,
+				A1F1FEDF8CD754F7CF7F109912E1C9ED /* Pods-FeedShellApp-acknowledgements.markdown */,
+				3BF6E966948195BBE40260FC83D5AF37 /* Pods-FeedShellApp-acknowledgements.plist */,
+				FE28BBA4590B88CEC477B73980AD6E64 /* Pods-FeedShellApp-dummy.m */,
+				4FB5C86143AE3C4F911C5CA6F51C8829 /* Pods-FeedShellApp-frameworks.sh */,
+				012134044A0EC540537C77F2B743B8C6 /* Pods-FeedShellApp-Info.plist */,
+				5338262331872B2577DD604AB230B221 /* Pods-FeedShellApp-umbrella.h */,
+				6F0154BE4E5725B8597ABF0E48883411 /* Pods-FeedShellApp.debug.xcconfig */,
+				61B9D5C0A45910D8245709C222C001AD /* Pods-FeedShellApp.release.xcconfig */,
+			);
+			name = "Pods-FeedShellApp";
+			path = "Target Support Files/Pods-FeedShellApp";
+			sourceTree = "<group>";
+		};
+		90677A78CC78005F23F2E80242C9779A /* BizUI */ = {
+			isa = PBXGroup;
+			children = (
+				63F75124EE2B8E5B18527E275928A03A /* AWESearchBizUI.xcassets */,
+				9313DF20ABE290173FCF3986E7005533 /* SearchResources.swift */,
+				E1F58904C780526188FC64E6B70B19CC /* SearchViewController.swift */,
+			);
+			name = BizUI;
+			sourceTree = "<group>";
+		};
+		91C45B0BD2F51E3FB0BA8C0AB1438456 /* AWEUITheme */ = {
+			isa = PBXGroup;
+			children = (
+				CD72DA75DBAF947D90D2928D9437FF35 /* AWEBaseViewController.swift */,
+				2F69AA05787BEE76A1110A8258FC7CF2 /* AWEColor.swift */,
+				ECE2A0DB17AA65E1F1FEB9369207018E /* AWEFont.swift */,
+				A30832E323807E4BA3B2D6CC3A8B1C5B /* AWENavigationController.swift */,
+				B64DFC75197D6A339C1CC10F840C707A /* UIThemeBootTask.swift */,
+				22F2775A2E680F2B3CEF6CC9F1C1A4E9 /* Pod */,
+				4CA5D7F64891E56AE9915C4D89920AAB /* Support Files */,
+			);
+			name = AWEUITheme;
+			path = ../UITheme;
+			sourceTree = "<group>";
+		};
+		9E636AA1E8CE254ACAC04EE1E5038C8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D47BD5DD74A451EDC9088C858CF51087 /* AWELaunchKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A2A83E41D49ADA0EEC2E8DA3183870B9 /* AWEUIResources */ = {
+			isa = PBXGroup;
+			children = (
+				5F6A437629AD79A80049CFFC3BDA8E67 /* AWEUIIcons.xcassets */,
+				E14BFB94C7AC64AC4228691CCF7BE2D8 /* AWEUIResources.swift */,
+				CEDB36986353BF7785CD85E74804B87F /* Pod */,
+				4076F9CEA943944E1E2B62B43D11FE01 /* Support Files */,
+			);
+			name = AWEUIResources;
+			path = ../UIResources;
+			sourceTree = "<group>";
+		};
+		B27585EABB0AE51FE6485FE015F2BA9B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A37E30125A5188F55C034FBC394E0 /* AWESearch.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B9DAB1628CC0267A75807985B9C9CBE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA4CC9C89B1FAC935848046812B04FAE /* AWEFeed.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C5DA70B46B27BCAEF256780D8FE4AF41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D15B12A2517715069AE1D2037A4F42F /* AWEInfra.modulemap */,
+				4B0B394BE5569CBC1F9619092BFBAA6D /* AWEInfra-dummy.m */,
+				3442A029951286549152185EEB0717C1 /* AWEInfra-Info.plist */,
+				4BFE9D7A28D86EA3E889EE65A9A05281 /* AWEInfra-prefix.pch */,
+				CE4485605F9564DCC277A1E00EA322B1 /* AWEInfra-umbrella.h */,
+				332308B93BE2868B1D68D5F0E13D4C09 /* AWEInfra.debug.xcconfig */,
+				A38490892BD8BB44AEA6C31C9DD6F7DA /* AWEInfra.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/AWEInfra";
+			sourceTree = "<group>";
+		};
+		CCD9583E4EBC489FB63644D8A4062867 /* Pods-SearchShellApp */ = {
+			isa = PBXGroup;
+			children = (
+				A2662979B5AD683D16064E475B4462EB /* Pods-SearchShellApp.modulemap */,
+				A931B299832902166E90ADB49FB33DBF /* Pods-SearchShellApp-acknowledgements.markdown */,
+				CDA09EB2114B3BF7A4458769741EEBED /* Pods-SearchShellApp-acknowledgements.plist */,
+				8225F78792176C0D8699767DB74D463B /* Pods-SearchShellApp-dummy.m */,
+				75895B07DA61BF827C1607DA7C0960A5 /* Pods-SearchShellApp-frameworks.sh */,
+				E2177DB5FA528DB32D65977C5C52A37C /* Pods-SearchShellApp-Info.plist */,
+				9F9AABCA221A4449D54536A8D7C0C154 /* Pods-SearchShellApp-umbrella.h */,
+				1FE2197BE0E097862D55090808D0E233 /* Pods-SearchShellApp.debug.xcconfig */,
+				210BFF431541C2890567B68CF78ADAC3 /* Pods-SearchShellApp.release.xcconfig */,
+			);
+			name = "Pods-SearchShellApp";
+			path = "Target Support Files/Pods-SearchShellApp";
+			sourceTree = "<group>";
+		};
+		CEA1192DDC3857DE5634CFF88C208F4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1782F944A0A978207482B5A8B17B0C7E /* SearchResult.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CEDB36986353BF7785CD85E74804B87F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B9C498626F7A0E581EB5EF4907B0BD36 /* AWEUIResources.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				797C58AABC60AE2C3A954082689246A4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5EAA837AF7C9A838AB6816242C004B4F /* Products */,
+				0829B3CA0309764862EA55643D34995B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03564706E9FB1A8CBD2B66B7D0725EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B9BC70566E389798B24A02AE5C0EC220 /* SearchService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9030CEBE418E3BAE98DD341134A179F /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				47378583287C85865E24ED367306CEDC /* SearchLogger.swift */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		E9DF4C24576BEB2CD1A50E8FCA1D08FE /* BizUI */ = {
+			isa = PBXGroup;
+			children = (
+				8A3A742365C3D3AD2E0612DE640583F8 /* AWEFeedBizUI.xcassets */,
+				E49C7B38C4091D2C1A62A779BA876172 /* FeedResources.swift */,
+				D1AD15BA729CC41C5D41F7760FE4CB6E /* FeedViewController.swift */,
+			);
+			name = BizUI;
+			sourceTree = "<group>";
+		};
+		ED4E724B7E24C93D298517F6305BB846 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				D406DD643AC7AC0600F72E70311E62F3 /* SearchImplAndBoot.swift */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		EEB07DBF732181EEC4A07C1DC9AE48F9 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				E567C0C1C015A3F961C406664D21EDC3 /* FeedEntryProtocol.swift */,
+			);
+			name = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		EF3E255A2784E4C6B17D89738AD37770 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				09A1AD7FBDE5FEF6D2D9F9E1E13258C8 /* SearchEntryProtocol.swift */,
+			);
+			name = ModuleInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11413E64D45171FBD456F24BA30507CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF480EC564BB6CAD7C929F0ECC1BA378 /* Pods-FeedShellApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E220AE4C688E7C59159BA01CA00DF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36047BAACA3A61F33B01113D72D9EB4 /* AWEUITheme-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B342B15FD90064FD3A48E90FC22C6FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE06F0CE97A1EE986C958B71E93CCB /* Pods-DouyinHostApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA0A832C4D230C250BF87E44E3DC69D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC565422D8CB582C1FC88164BB428307 /* Pods-SearchShellApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E791FD247643ABFC79CC80FD825F5875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC3A5C62665876FB217A70743783B82 /* AWEFeed-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA43603F17B0034FB3993E5962CCFE08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D249B34D845EDA715A5D6AEB6732543 /* AWELaunchKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBFD934948B5CEF3A00C3342B43E7EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493961B0F2B357A7CA3BB1E552A3E967 /* AWEUIResources-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34FCA898A31F10C5D6E19E631C13110 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EAB4A9E4EF6C9AD134D08FC03085A5 /* AWEInfra-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4660443B363B5ED8F59EB97D471014 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9815538A31BE5B77B82232CF1DB505C7 /* AWESearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		006F484CCFC171F345897E60C478261A /* AWEFeed-AWEFeedBizUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C62493159B4D476D63DDBC6781C0C1A /* Build configuration list for PBXNativeTarget "AWEFeed-AWEFeedBizUIResources" */;
+			buildPhases = (
+				5C1821BB4D975044A7B559BE39A5D024 /* Sources */,
+				C0EA0B4403568351B042BA88D05B7388 /* Frameworks */,
+				0C194090FE0A88E1E6FCE1D26939A998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWEFeed-AWEFeedBizUIResources";
+			productName = AWEFeedBizUIResources;
+			productReference = 5DFB72CE9313D5F975ECC738D4048AD6 /* AWEFeed-AWEFeedBizUIResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		14FFCE8DA1687B23DECB53DE17D79D70 /* AWEUIResources-AWEUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FE4807417E6491138E0D41DFEE7EF8 /* Build configuration list for PBXNativeTarget "AWEUIResources-AWEUIResources" */;
+			buildPhases = (
+				5BB1C552E16AA684296BBD119BC84A43 /* Sources */,
+				ABC80D4A93A7267FF7DB12E70E5A7B28 /* Frameworks */,
+				EDA4AB2EB1C92AF555CA2E3889FDB743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWEUIResources-AWEUIResources";
+			productName = AWEUIResources;
+			productReference = 6DBF13FD9D215B34EE210CF58903EC55 /* AWEUIResources-AWEUIResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2AABF5A278C67026885D06B1D4A946 /* Build configuration list for PBXNativeTarget "AWEUIResources" */;
+			buildPhases = (
+				EDBFD934948B5CEF3A00C3342B43E7EC /* Headers */,
+				279F63EF66AFB0A8197A0608ADD36283 /* Sources */,
+				CCB56E707875B5C9AA680AEE501836C7 /* Frameworks */,
+				4516A60AB8FE816E4D676F9FA81DC425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59CAC15D7BFF8D89590564849A4BF06 /* PBXTargetDependency */,
+			);
+			name = AWEUIResources;
+			productName = AWEUIResources;
+			productReference = 24E91C04BDA1669135DCED6CA1A19A30 /* AWEUIResources */;
+			productType = "com.apple.product-type.framework";
+		};
+		339745DE7CF8FE3DB7E65FBEEF9F023A /* Pods-DouyinHostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475728FF7933498C931D9420EE8F602D /* Build configuration list for PBXNativeTarget "Pods-DouyinHostApp" */;
+			buildPhases = (
+				8B342B15FD90064FD3A48E90FC22C6FA /* Headers */,
+				1AEA897BE4DF878597DB8E6402B908B3 /* Sources */,
+				27C337A73D1F1CA41781D9B46C65B44A /* Frameworks */,
+				8A79E6C9C5C5387A456D048A316DBA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77CEB67232D9545F671CB9DF95D09FDB /* PBXTargetDependency */,
+				79414B7912D7F758D78FBE34A5548BC7 /* PBXTargetDependency */,
+				6CD146584475FDF4F1990A9F93780F23 /* PBXTargetDependency */,
+				7C5B7356FF15AA7EE272AD3293E47DB1 /* PBXTargetDependency */,
+				AE3C4F11BD3825FE589C2DB887FA131C /* PBXTargetDependency */,
+				AD601070FED019608B13DAAFB81B0075 /* PBXTargetDependency */,
+			);
+			name = "Pods-DouyinHostApp";
+			productName = Pods_DouyinHostApp;
+			productReference = 85A764925B0E6C84E499711A91CC07EE /* Pods-DouyinHostApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		34BD2B2DA36C195AAE54F8152BDDD2F7 /* AWEUITheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A9874A0D707C804BC2ACCEB719E957 /* Build configuration list for PBXNativeTarget "AWEUITheme" */;
+			buildPhases = (
+				72E220AE4C688E7C59159BA01CA00DF1 /* Headers */,
+				D789418A3C71C6BACF9A3560ECB4D824 /* Sources */,
+				9A0807F0F83CC67B4ACF2442484EED32 /* Frameworks */,
+				9830F886C31DADFABD7271FE9D9A8AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D78D8E86939A56C13ED5CC1383DA43D /* PBXTargetDependency */,
+				01CB0D6B9D744EFC425EE15686307977 /* PBXTargetDependency */,
+			);
+			name = AWEUITheme;
+			productName = AWEUITheme;
+			productReference = 2709A5F757AB18A64579D5DD48A66D72 /* AWEUITheme */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F225EC1625C65E66389C1FEBEAEAA17 /* Build configuration list for PBXNativeTarget "AWELaunchKit" */;
+			buildPhases = (
+				EA43603F17B0034FB3993E5962CCFE08 /* Headers */,
+				497685007E4C476CFF2ACB4743C5E9B8 /* Sources */,
+				49917F87E54B85E35E887C66589F56C6 /* Frameworks */,
+				09FDDB2170F0BDBEFB4F22238D6063AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWELaunchKit;
+			productName = AWELaunchKit;
+			productReference = 40F5BE13F5CEE0A2C8FB2BA903D89546 /* AWELaunchKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		81BA68BA48020F94588C369233E8CAEC /* AWESearch-AWESearchBizUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA0DF08F3848A7AAE87ED08123505F9 /* Build configuration list for PBXNativeTarget "AWESearch-AWESearchBizUIResources" */;
+			buildPhases = (
+				599A62D91AFCBCAE2D4845993155EF90 /* Sources */,
+				50F5CF1A6ED3282EEF37CFFF49B549C9 /* Frameworks */,
+				B561BFEC07F69D33D978CD9FD5EB17E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWESearch-AWESearchBizUIResources";
+			productName = AWESearchBizUIResources;
+			productReference = 5A6514E6F01ABE891F2BC26C2C567AA3 /* AWESearch-AWESearchBizUIResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AC63EF0DB1CC324DD72A496DA617B2C2 /* AWEFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FCD1666498EA87BB069BF8330E962D /* Build configuration list for PBXNativeTarget "AWEFeed" */;
+			buildPhases = (
+				E791FD247643ABFC79CC80FD825F5875 /* Headers */,
+				BC9D9CC05A292C8D3F7960CC965080A7 /* Sources */,
+				2699EA016657A30E51034A305B7F9EA4 /* Frameworks */,
+				57A568AFD27DE2A48202641C0C228F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC983A0D517938301F765C921324FCC /* PBXTargetDependency */,
+				9BB2B52063EE725C5E551781A9E91E79 /* PBXTargetDependency */,
+				83B9EFC9FDF03BC2E476F18EE83B7FC2 /* PBXTargetDependency */,
+				551CE6B601EB7EE206DA01E87D3BE540 /* PBXTargetDependency */,
+				C8BD06D100EE90FF78447B108971A1C8 /* PBXTargetDependency */,
+			);
+			name = AWEFeed;
+			productName = AWEFeed;
+			productReference = 2DF5D5BE6D6F19D619691189586D8AEE /* AWEFeed */;
+			productType = "com.apple.product-type.framework";
+		};
+		C387B5C637732DAC194E2A944361678F /* AWESearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F85EAE5EFBCA4E3CBCD85DF49D321C6 /* Build configuration list for PBXNativeTarget "AWESearch" */;
+			buildPhases = (
+				FC4660443B363B5ED8F59EB97D471014 /* Headers */,
+				B8CA90CAEEB718BCB8E184ABCA0DEF06 /* Sources */,
+				29DB7A64CF0FFAB20AA885D25130C88C /* Frameworks */,
+				803222DCACC567761F2FA238BAA393B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1173A9962BE230C7E9CA283EE03F7F /* PBXTargetDependency */,
+				E3B2B2D3823D54E48FA2D07EB3CF5DBA /* PBXTargetDependency */,
+				CEC709220C48D5FB43078338B04F909B /* PBXTargetDependency */,
+				C996BE7834DF4586CE624AB7E1841FAB /* PBXTargetDependency */,
+				86E4F66B36BDEE12A4D1A3C577568D9E /* PBXTargetDependency */,
+			);
+			name = AWESearch;
+			productName = AWESearch;
+			productReference = CC4941D505672C557143B94B1F5D9AB5 /* AWESearch */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD2B037C9EC4603BCC4B381D1154776E /* Pods-FeedShellApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A31B7EFE9C14E036F25B395E2D9A55 /* Build configuration list for PBXNativeTarget "Pods-FeedShellApp" */;
+			buildPhases = (
+				11413E64D45171FBD456F24BA30507CA /* Headers */,
+				DD730FB7B5A0311B37203187C38883EA /* Sources */,
+				390852F4C4409C1B4452CAA629772AA1 /* Frameworks */,
+				CFE3F4ADCE19617FE809CDEC8A343094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349CA11419A716CC45D201F9D2E197E7 /* PBXTargetDependency */,
+				90E15DFE8B9BC04BD9555D79A1A3E8BA /* PBXTargetDependency */,
+				4D9510639000BF44E56950A5172F3A8D /* PBXTargetDependency */,
+				9227722E4073AB55F807574C9C8E4F58 /* PBXTargetDependency */,
+				A39CF0B1617836303E9C972E1C91F880 /* PBXTargetDependency */,
+				A154345AA77D85C409E162E849E0A5FA /* PBXTargetDependency */,
+			);
+			name = "Pods-FeedShellApp";
+			productName = Pods_FeedShellApp;
+			productReference = 4216E66F2354BC03044F42DEE8447410 /* Pods-FeedShellApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB82DCCA05B08C5A83C48D13937CACD7 /* Pods-SearchShellApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB52F546830919485BEEBC45A3FC202A /* Build configuration list for PBXNativeTarget "Pods-SearchShellApp" */;
+			buildPhases = (
+				9DA0A832C4D230C250BF87E44E3DC69D /* Headers */,
+				B7255DF69881E1034CCCA5BC5E21DDF6 /* Sources */,
+				7F7C922C86465E5B4436A957CF201FDC /* Frameworks */,
+				25B12FE0CCD39A70E7617FE3D34605E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B990386F021A05D7DB0C71195F8F63C /* PBXTargetDependency */,
+				F398578E274C10163ECD426120A137E8 /* PBXTargetDependency */,
+				02CD8D31BF525248FD24574E2DFCD516 /* PBXTargetDependency */,
+				1D90A57A3C9A29323A88A86E52B00D08 /* PBXTargetDependency */,
+				795B9EEE9E56F1DAA93791F7DFEE9709 /* PBXTargetDependency */,
+			);
+			name = "Pods-SearchShellApp";
+			productName = Pods_SearchShellApp;
+			productReference = 096B633B6EA5A451160990D8C5B12264 /* Pods-SearchShellApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B66182718CDD273C8851B52E675507F /* Build configuration list for PBXNativeTarget "AWEInfra" */;
+			buildPhases = (
+				F34FCA898A31F10C5D6E19E631C13110 /* Headers */,
+				FEDE856ADE22344A3ACE37E49CD43C6E /* Sources */,
+				D1B252C580BF62D9EF86330AA4CDAE66 /* Frameworks */,
+				13130F79DDBECC4BF8696577CD77D2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFE4B4B72ED2FF5A20B4679E7F0EF1A /* PBXTargetDependency */,
+			);
+			name = AWEInfra;
+			productName = AWEInfra;
+			productReference = 0B171FF7FC7EF0CBE5F06678D2689E88 /* AWEInfra */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5EAA837AF7C9A838AB6816242C004B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC63EF0DB1CC324DD72A496DA617B2C2 /* AWEFeed */,
+				006F484CCFC171F345897E60C478261A /* AWEFeed-AWEFeedBizUIResources */,
+				F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */,
+				5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */,
+				C387B5C637732DAC194E2A944361678F /* AWESearch */,
+				81BA68BA48020F94588C369233E8CAEC /* AWESearch-AWESearchBizUIResources */,
+				2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */,
+				14FFCE8DA1687B23DECB53DE17D79D70 /* AWEUIResources-AWEUIResources */,
+				34BD2B2DA36C195AAE54F8152BDDD2F7 /* AWEUITheme */,
+				339745DE7CF8FE3DB7E65FBEEF9F023A /* Pods-DouyinHostApp */,
+				DD2B037C9EC4603BCC4B381D1154776E /* Pods-FeedShellApp */,
+				EB82DCCA05B08C5A83C48D13937CACD7 /* Pods-SearchShellApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FDDB2170F0BDBEFB4F22238D6063AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C194090FE0A88E1E6FCE1D26939A998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6258B7F4EACBBD0F20B490FDF9827F94 /* AWEFeedBizUI.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13130F79DDBECC4BF8696577CD77D2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B12FE0CCD39A70E7617FE3D34605E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4516A60AB8FE816E4D676F9FA81DC425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB7C476E189FCCBC4880F67B72E327D /* AWEUIResources-AWEUIResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A568AFD27DE2A48202641C0C228F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7186C20F54513173A9B3E61241EA6D36 /* AWEFeed-AWEFeedBizUIResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803222DCACC567761F2FA238BAA393B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCA4CDF00C2D94FE1D78A081709059C /* AWESearch-AWESearchBizUIResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A79E6C9C5C5387A456D048A316DBA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9830F886C31DADFABD7271FE9D9A8AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B561BFEC07F69D33D978CD9FD5EB17E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614063294FF9EDA3C06A96415B427A80 /* AWESearchBizUI.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE3F4ADCE19617FE809CDEC8A343094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA4AB2EB1C92AF555CA2E3889FDB743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE3F997EBD71E34E0D69EE66B015635 /* AWEUIIcons.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEA897BE4DF878597DB8E6402B908B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514C6E37A688E70F27641CBBCB582691 /* Pods-DouyinHostApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279F63EF66AFB0A8197A0608ADD36283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025F220553BEBCB4AF58CD21B5E3FB7B /* AWEUIResources.swift in Sources */,
+				9F879C05ED669C112B9F76C6F49F5429 /* AWEUIResources-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497685007E4C476CFF2ACB4743C5E9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DDD62F2137E42630145CC9DC1B38A5 /* AWELaunchKit-dummy.m in Sources */,
+				03844F141B176CA6C17992BF8EDB9AF9 /* Core.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599A62D91AFCBCAE2D4845993155EF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB1C552E16AA684296BBD119BC84A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1821BB4D975044A7B559BE39A5D024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7255DF69881E1034CCCA5BC5E21DDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE91D54EC42A33B2049E6028ED3B2A2 /* Pods-SearchShellApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CA90CAEEB718BCB8E184ABCA0DEF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7E789BCCA0B869DC952965427BE87A /* AWESearch-dummy.m in Sources */,
+				76E8674E2169F32D673C9AC9C9CBCB89 /* SearchEntryProtocol.swift in Sources */,
+				F0CF708DCC8F106ED7F2ECA4708D1A3C /* SearchImplAndBoot.swift in Sources */,
+				C9C92C2100100E3513C61DC8B6E0FB94 /* SearchLogger.swift in Sources */,
+				886D9282AE60F8FD51E6BB78D4FCC08A /* SearchResources.swift in Sources */,
+				6C22890C6583DE51FD49913A20817C89 /* SearchResult.swift in Sources */,
+				3B47A12850A6E3F829CB3D99EC00768F /* SearchService.swift in Sources */,
+				C9CF82200181EB79019572CE114A3065 /* SearchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9D9CC05A292C8D3F7960CC965080A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5902575A10F7A8A8B60AA19FBAB7426 /* AWEFeed-dummy.m in Sources */,
+				F5A95B6090597052F314AA4FA4386EE5 /* FeedEntryProtocol.swift in Sources */,
+				9BDA80C8A0057D3ADC2237A2C5DC9513 /* FeedImplAndBoot.swift in Sources */,
+				01C7833BC2F15C4CF3DB61C1554D4CA5 /* FeedResources.swift in Sources */,
+				C68CB6D3EF6D954E1709E927F5EB7A54 /* FeedService.swift in Sources */,
+				4DB4B8158316464B137ECE0513270339 /* FeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789418A3C71C6BACF9A3560ECB4D824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9AD68EE971649E2C471E5E44C4C9B0 /* AWEBaseViewController.swift in Sources */,
+				F0130B1C70BDB373D16C3D7C494FF188 /* AWEColor.swift in Sources */,
+				7ADD5D83D880A8FB0560EEA374D524A3 /* AWEFont.swift in Sources */,
+				FBAF671E547AE549930AF1C5266337D9 /* AWENavigationController.swift in Sources */,
+				DE1AD227E200E291637C8DBED36ADB16 /* AWEUITheme-dummy.m in Sources */,
+				F3433DCDAF439AFBE21AD29978894384 /* UIThemeBootTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD730FB7B5A0311B37203187C38883EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320BF472951574B4B37612A247CCA76 /* Pods-FeedShellApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDE856ADE22344A3ACE37E49CD43C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8591B1F0FD200E018AE543F317FA85C /* AWEInfra-dummy.m in Sources */,
+				D5725169335B0891BCB23C5E78FBE593 /* InfraCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01CB0D6B9D744EFC425EE15686307977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUIResources;
+			target = 2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */;
+			targetProxy = 4EEF680FE6D5AA95656628DC770F4389 /* PBXContainerItemProxy */;
+		};
+		02CD8D31BF525248FD24574E2DFCD516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWESearch;
+			target = C387B5C637732DAC194E2A944361678F /* AWESearch */;
+			targetProxy = 789B5890CFB16F0CFE9079E30B77C940 /* PBXContainerItemProxy */;
+		};
+		0D78D8E86939A56C13ED5CC1383DA43D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = 66FF2F3E7F972C12CFDBB968EC8D78CF /* PBXContainerItemProxy */;
+		};
+		1A1173A9962BE230C7E9CA283EE03F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEInfra;
+			target = F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */;
+			targetProxy = 38F5CE431EC05AEC4943ED387306821F /* PBXContainerItemProxy */;
+		};
+		1D90A57A3C9A29323A88A86E52B00D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUIResources;
+			target = 2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */;
+			targetProxy = 4C4A9B2244D7F89B32369D0F5D79C3D1 /* PBXContainerItemProxy */;
+		};
+		349CA11419A716CC45D201F9D2E197E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEFeed;
+			target = AC63EF0DB1CC324DD72A496DA617B2C2 /* AWEFeed */;
+			targetProxy = 446538B97B11E174F42E40C95F3F3274 /* PBXContainerItemProxy */;
+		};
+		4B990386F021A05D7DB0C71195F8F63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEInfra;
+			target = F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */;
+			targetProxy = F57EE343615B5F50C394E930A76756FC /* PBXContainerItemProxy */;
+		};
+		4D9510639000BF44E56950A5172F3A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = B8484BEB215F88AAD7E18F7598B0670D /* PBXContainerItemProxy */;
+		};
+		551CE6B601EB7EE206DA01E87D3BE540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWESearch;
+			target = C387B5C637732DAC194E2A944361678F /* AWESearch */;
+			targetProxy = 6400B336B6BE70A12662355A56A669FF /* PBXContainerItemProxy */;
+		};
+		6CD146584475FDF4F1990A9F93780F23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = BDEF285865D8607184518B310BC92134 /* PBXContainerItemProxy */;
+		};
+		77CEB67232D9545F671CB9DF95D09FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEFeed;
+			target = AC63EF0DB1CC324DD72A496DA617B2C2 /* AWEFeed */;
+			targetProxy = 2C228DF2E6363A253A58845D7D0C86E3 /* PBXContainerItemProxy */;
+		};
+		79414B7912D7F758D78FBE34A5548BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEInfra;
+			target = F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */;
+			targetProxy = 6D3ED2ED49D3F1BC1B8F9420F85C383F /* PBXContainerItemProxy */;
+		};
+		795B9EEE9E56F1DAA93791F7DFEE9709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUITheme;
+			target = 34BD2B2DA36C195AAE54F8152BDDD2F7 /* AWEUITheme */;
+			targetProxy = B227B42738E80FC33CEE2D361F757B4F /* PBXContainerItemProxy */;
+		};
+		7C5B7356FF15AA7EE272AD3293E47DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWESearch;
+			target = C387B5C637732DAC194E2A944361678F /* AWESearch */;
+			targetProxy = 2E1F950CEFA0DBA78BC0F6AF759F8002 /* PBXContainerItemProxy */;
+		};
+		83B9EFC9FDF03BC2E476F18EE83B7FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = ADBADE91B9DE19BF541807882723EE08 /* PBXContainerItemProxy */;
+		};
+		86E4F66B36BDEE12A4D1A3C577568D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUITheme;
+			target = 34BD2B2DA36C195AAE54F8152BDDD2F7 /* AWEUITheme */;
+			targetProxy = 51A01984478263B2034433013DEBA3C0 /* PBXContainerItemProxy */;
+		};
+		8CC983A0D517938301F765C921324FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AWEFeed-AWEFeedBizUIResources";
+			target = 006F484CCFC171F345897E60C478261A /* AWEFeed-AWEFeedBizUIResources */;
+			targetProxy = EA92CF94C78A5B1E7C5FB249F0F2A7EB /* PBXContainerItemProxy */;
+		};
+		90E15DFE8B9BC04BD9555D79A1A3E8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEInfra;
+			target = F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */;
+			targetProxy = 2A532EC2E2A3708A25EECC5473349974 /* PBXContainerItemProxy */;
+		};
+		9227722E4073AB55F807574C9C8E4F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWESearch;
+			target = C387B5C637732DAC194E2A944361678F /* AWESearch */;
+			targetProxy = DC8C42137EFFBC67118131CE4F091CFA /* PBXContainerItemProxy */;
+		};
+		9BB2B52063EE725C5E551781A9E91E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEInfra;
+			target = F9295FEE2B116D6603CD41B2FB479684 /* AWEInfra */;
+			targetProxy = 5217E0A6D9637508A1C8167350F9D3F6 /* PBXContainerItemProxy */;
+		};
+		9DFE4B4B72ED2FF5A20B4679E7F0EF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = AD216F23F291F849B8D9532001131CCE /* PBXContainerItemProxy */;
+		};
+		A154345AA77D85C409E162E849E0A5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUITheme;
+			target = 34BD2B2DA36C195AAE54F8152BDDD2F7 /* AWEUITheme */;
+			targetProxy = 9AC8DA5389BD13188DAAB953DFA10D45 /* PBXContainerItemProxy */;
+		};
+		A39CF0B1617836303E9C972E1C91F880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUIResources;
+			target = 2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */;
+			targetProxy = 6DCEE0398EC593C9C12AC11178F92CB8 /* PBXContainerItemProxy */;
+		};
+		A59CAC15D7BFF8D89590564849A4BF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AWEUIResources-AWEUIResources";
+			target = 14FFCE8DA1687B23DECB53DE17D79D70 /* AWEUIResources-AWEUIResources */;
+			targetProxy = 40896E248649B37A2AC5FFF69ECA1467 /* PBXContainerItemProxy */;
+		};
+		AD601070FED019608B13DAAFB81B0075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUITheme;
+			target = 34BD2B2DA36C195AAE54F8152BDDD2F7 /* AWEUITheme */;
+			targetProxy = E996B1F3A9902A6D780884748CF6621F /* PBXContainerItemProxy */;
+		};
+		AE3C4F11BD3825FE589C2DB887FA131C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUIResources;
+			target = 2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */;
+			targetProxy = BE1E80169F633A0B02C5BEBEDCE38954 /* PBXContainerItemProxy */;
+		};
+		C8BD06D100EE90FF78447B108971A1C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUIResources;
+			target = 2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */;
+			targetProxy = 068C01F00741BA94186E81AE39D404A5 /* PBXContainerItemProxy */;
+		};
+		C996BE7834DF4586CE624AB7E1841FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWEUIResources;
+			target = 2D97038CC23CED94D084D31895BA7C91 /* AWEUIResources */;
+			targetProxy = B45E40B34C5A4EFE468C331C3F774A46 /* PBXContainerItemProxy */;
+		};
+		CEC709220C48D5FB43078338B04F909B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AWESearch-AWESearchBizUIResources";
+			target = 81BA68BA48020F94588C369233E8CAEC /* AWESearch-AWESearchBizUIResources */;
+			targetProxy = 99953CA469ED1C7B27DB8720FC352F03 /* PBXContainerItemProxy */;
+		};
+		E3B2B2D3823D54E48FA2D07EB3CF5DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = 57A578DA88B9FAE5F6C3C79FBE1DBA7C /* PBXContainerItemProxy */;
+		};
+		F398578E274C10163ECD426120A137E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELaunchKit;
+			target = 5AD649F94200AD76A2DBFFB98D291E47 /* AWELaunchKit */;
+			targetProxy = 0BF96A461FD6D5EDA1497024B0E1310F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF653867BA3B947062C018379498CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D83743C541F70CE1520028728B91AF6 /* AWESearch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AWESearch";
+				IBSC_MODULE = AWESearch;
+				INFOPLIST_FILE = "Target Support Files/AWESearch/ResourceBundle-AWESearchBizUIResources-AWESearch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AWESearchBizUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0F70B59ACDEDF47C01F35C85DD08C690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4F62D0F45EB5F53B1F5DFD4794F5C5 /* AWESearch.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AWESearch";
+				IBSC_MODULE = AWESearch;
+				INFOPLIST_FILE = "Target Support Files/AWESearch/ResourceBundle-AWESearchBizUIResources-AWESearch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AWESearchBizUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		10E11C09327EC540188538271C0295D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08897D290011DB728AB41F540804B0C /* Pods-DouyinHostApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyinHostApp/Pods-DouyinHostApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyinHostApp/Pods-DouyinHostApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1463DD84E148DE24315F1C95823A5562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B9D5C0A45910D8245709C222C001AD /* Pods-FeedShellApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeedShellApp/Pods-FeedShellApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeedShellApp/Pods-FeedShellApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		149F5538B0B05C850D8B26473343F315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42730F3B27FDE4F5A1FFBCB24144C43 /* Pods-DouyinHostApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyinHostApp/Pods-DouyinHostApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyinHostApp/Pods-DouyinHostApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		260CC1815A2AF3F072806CEE3C47C94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98BB14B6D9F014C4E46DE343315F32B /* AWEUITheme.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEUITheme/AWEUITheme-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEUITheme/AWEUITheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEUITheme/AWEUITheme.modulemap";
+				PRODUCT_MODULE_NAME = AWEUITheme;
+				PRODUCT_NAME = AWEUITheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		380845791E6F8485E6C57D4BB8A2B968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0154BE4E5725B8597ABF0E48883411 /* Pods-FeedShellApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeedShellApp/Pods-FeedShellApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeedShellApp/Pods-FeedShellApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		449084E3BD527712F46D00A47B377225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE976121CEA1718443F6BC39F504F19 /* AWEUITheme.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEUITheme/AWEUITheme-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEUITheme/AWEUITheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEUITheme/AWEUITheme.modulemap";
+				PRODUCT_MODULE_NAME = AWEUITheme;
+				PRODUCT_NAME = AWEUITheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48416D3EE9A8D3D6A49E7CD27FC146E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC72C44D17DD1DAD28B45248EB3896DD /* AWELaunchKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWELaunchKit/AWELaunchKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWELaunchKit/AWELaunchKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWELaunchKit/AWELaunchKit.modulemap";
+				PRODUCT_MODULE_NAME = AWELaunchKit;
+				PRODUCT_NAME = AWELaunchKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A02030A8E7AE4038E50BE4E88141004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCAC115B61862B1DF3107A06262AA24 /* AWELaunchKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWELaunchKit/AWELaunchKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWELaunchKit/AWELaunchKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWELaunchKit/AWELaunchKit.modulemap";
+				PRODUCT_MODULE_NAME = AWELaunchKit;
+				PRODUCT_NAME = AWELaunchKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CED898DA80A02D04EA15249A77FCB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A152D79A12E67D6824B70B99E448981E /* AWEFeed.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AWEFeed";
+				IBSC_MODULE = AWEFeed;
+				INFOPLIST_FILE = "Target Support Files/AWEFeed/ResourceBundle-AWEFeedBizUIResources-AWEFeed-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AWEFeedBizUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		65D0C2567122EAF0A6F737AFD4648340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79221C58CFD0E358FF9A17579B7B1D95 /* AWEFeed.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEFeed/AWEFeed-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEFeed/AWEFeed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEFeed/AWEFeed.modulemap";
+				PRODUCT_MODULE_NAME = AWEFeed;
+				PRODUCT_NAME = AWEFeed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		660959D7135A8EF211982E3C5A36A07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C815FA86D1FFEBA76E7DDB2E4FDBB7DA /* AWEUIResources.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEUIResources/AWEUIResources-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEUIResources/AWEUIResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEUIResources/AWEUIResources.modulemap";
+				PRODUCT_MODULE_NAME = AWEUIResources;
+				PRODUCT_NAME = AWEUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C0530E1722BC6341EE1893101E10A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB263025F9F5CD8BABA0CA8BC42BF80 /* AWEUIResources.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AWEUIResources";
+				IBSC_MODULE = AWEUIResources;
+				INFOPLIST_FILE = "Target Support Files/AWEUIResources/ResourceBundle-AWEUIResources-AWEUIResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AWEUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7441FB5A6DD07526109AA700062C04FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C815FA86D1FFEBA76E7DDB2E4FDBB7DA /* AWEUIResources.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AWEUIResources";
+				IBSC_MODULE = AWEUIResources;
+				INFOPLIST_FILE = "Target Support Files/AWEUIResources/ResourceBundle-AWEUIResources-AWEUIResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AWEUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7EAA1C48266A857482D467ECD43774CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38490892BD8BB44AEA6C31C9DD6F7DA /* AWEInfra.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEInfra/AWEInfra-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEInfra/AWEInfra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEInfra/AWEInfra.modulemap";
+				PRODUCT_MODULE_NAME = AWEInfra;
+				PRODUCT_NAME = AWEInfra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A43ED38579B3272D864A93C3E4EC2B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D83743C541F70CE1520028728B91AF6 /* AWESearch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWESearch/AWESearch-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWESearch/AWESearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWESearch/AWESearch.modulemap";
+				PRODUCT_MODULE_NAME = AWESearch;
+				PRODUCT_NAME = AWESearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4041D29602543B74594556302092F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210BFF431541C2890567B68CF78ADAC3 /* Pods-SearchShellApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SearchShellApp/Pods-SearchShellApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SearchShellApp/Pods-SearchShellApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C24DB379892889FBD2571AFFD6853EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A152D79A12E67D6824B70B99E448981E /* AWEFeed.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEFeed/AWEFeed-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEFeed/AWEFeed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEFeed/AWEFeed.modulemap";
+				PRODUCT_MODULE_NAME = AWEFeed;
+				PRODUCT_NAME = AWEFeed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB7E40A1B9BFF9B2365621B6A747BEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB263025F9F5CD8BABA0CA8BC42BF80 /* AWEUIResources.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEUIResources/AWEUIResources-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEUIResources/AWEUIResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEUIResources/AWEUIResources.modulemap";
+				PRODUCT_MODULE_NAME = AWEUIResources;
+				PRODUCT_NAME = AWEUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBB64CB5A2E08640EECD7CD3CB365BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE2197BE0E097862D55090808D0E233 /* Pods-SearchShellApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-SearchShellApp/Pods-SearchShellApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SearchShellApp/Pods-SearchShellApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E532A35C802A0CDB5BF1FCAAFA1499C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4F62D0F45EB5F53B1F5DFD4794F5C5 /* AWESearch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWESearch/AWESearch-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWESearch/AWESearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWESearch/AWESearch.modulemap";
+				PRODUCT_MODULE_NAME = AWESearch;
+				PRODUCT_NAME = AWESearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E848055105C0B577A2B1013F3F3EFCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79221C58CFD0E358FF9A17579B7B1D95 /* AWEFeed.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AWEFeed";
+				IBSC_MODULE = AWEFeed;
+				INFOPLIST_FILE = "Target Support Files/AWEFeed/ResourceBundle-AWEFeedBizUIResources-AWEFeed-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AWEFeedBizUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EEDB232B3E76E66E150058274C456203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332308B93BE2868B1D68D5F0E13D4C09 /* AWEInfra.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AWEInfra/AWEInfra-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AWEInfra/AWEInfra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AWEInfra/AWEInfra.modulemap";
+				PRODUCT_MODULE_NAME = AWEInfra;
+				PRODUCT_NAME = AWEInfra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2AABF5A278C67026885D06B1D4A946 /* Build configuration list for PBXNativeTarget "AWEUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7E40A1B9BFF9B2365621B6A747BEC8 /* Debug */,
+				660959D7135A8EF211982E3C5A36A07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F225EC1625C65E66389C1FEBEAEAA17 /* Build configuration list for PBXNativeTarget "AWELaunchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48416D3EE9A8D3D6A49E7CD27FC146E0 /* Debug */,
+				4A02030A8E7AE4038E50BE4E88141004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14FE4807417E6491138E0D41DFEE7EF8 /* Build configuration list for PBXNativeTarget "AWEUIResources-AWEUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0530E1722BC6341EE1893101E10A77 /* Debug */,
+				7441FB5A6DD07526109AA700062C04FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FCD1666498EA87BB069BF8330E962D /* Build configuration list for PBXNativeTarget "AWEFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24DB379892889FBD2571AFFD6853EE9 /* Debug */,
+				65D0C2567122EAF0A6F737AFD4648340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B66182718CDD273C8851B52E675507F /* Build configuration list for PBXNativeTarget "AWEInfra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDB232B3E76E66E150058274C456203 /* Debug */,
+				7EAA1C48266A857482D467ECD43774CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475728FF7933498C931D9420EE8F602D /* Build configuration list for PBXNativeTarget "Pods-DouyinHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E11C09327EC540188538271C0295D4 /* Debug */,
+				149F5538B0B05C850D8B26473343F315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F85EAE5EFBCA4E3CBCD85DF49D321C6 /* Build configuration list for PBXNativeTarget "AWESearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E532A35C802A0CDB5BF1FCAAFA1499C3 /* Debug */,
+				A43ED38579B3272D864A93C3E4EC2B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A31B7EFE9C14E036F25B395E2D9A55 /* Build configuration list for PBXNativeTarget "Pods-FeedShellApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380845791E6F8485E6C57D4BB8A2B968 /* Debug */,
+				1463DD84E148DE24315F1C95823A5562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C62493159B4D476D63DDBC6781C0C1A /* Build configuration list for PBXNativeTarget "AWEFeed-AWEFeedBizUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CED898DA80A02D04EA15249A77FCB8F /* Debug */,
+				E848055105C0B577A2B1013F3F3EFCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A9874A0D707C804BC2ACCEB719E957 /* Build configuration list for PBXNativeTarget "AWEUITheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260CC1815A2AF3F072806CEE3C47C94C /* Debug */,
+				449084E3BD527712F46D00A47B377225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB52F546830919485BEEBC45A3FC202A /* Build configuration list for PBXNativeTarget "Pods-SearchShellApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB64CB5A2E08640EECD7CD3CB365BFB /* Debug */,
+				B4041D29602543B74594556302092F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA0DF08F3848A7AAE87ED08123505F9 /* Build configuration list for PBXNativeTarget "AWESearch-AWESearchBizUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F70B59ACDEDF47C01F35C85DD08C690 /* Debug */,
+				0CF653867BA3B947062C018379498CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

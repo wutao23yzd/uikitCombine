@@ -1,0 +1,21 @@
+{
+  "name": "AWELaunchKit",
+  "version": "1.0.0",
+  "summary": "LaunchKit, BootTask, Router, ServiceRegistry",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Demo": "demo@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.{swift}",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,72 @@
+PODS:
+  - AWEFeed/BizUI (1.0.0):
+    - AWEFeed/Service
+    - AWELaunchKit
+    - AWEUIResources
+  - AWEFeed/Impl (1.0.0):
+    - AWEFeed/BizUI
+    - AWEFeed/ModuleInterface
+    - AWELaunchKit
+  - AWEFeed/ModuleInterface (1.0.0)
+  - AWEFeed/Service (1.0.0):
+    - AWEInfra
+    - AWESearch/ModuleInterface
+  - AWEInfra (1.0.0):
+    - AWELaunchKit
+  - AWELaunchKit (1.0.0)
+  - AWESearch/Basic (1.0.0):
+    - AWESearch/ModuleInterface
+  - AWESearch/BizUI (1.0.0):
+    - AWESearch/Service
+    - AWEUIResources
+    - AWEUITheme
+  - AWESearch/Impl (1.0.0):
+    - AWEInfra
+    - AWELaunchKit
+    - AWESearch/BizUI
+    - AWESearch/ModuleInterface
+  - AWESearch/Model (1.0.0):
+    - AWESearch/ModuleInterface
+  - AWESearch/ModuleInterface (1.0.0)
+  - AWESearch/Service (1.0.0):
+    - AWEInfra
+    - AWESearch/Basic
+    - AWESearch/Model
+  - AWEUIResources (1.0.0)
+  - AWEUITheme (1.0.0):
+    - AWELaunchKit
+    - AWEUIResources
+
+DEPENDENCIES:
+  - AWEFeed/Impl (from `./Modules/Feed`)
+  - AWEInfra (from `./Infra`)
+  - AWELaunchKit (from `./LaunchKit`)
+  - AWESearch/Impl (from `./Modules/Search`)
+  - AWEUIResources (from `./UIResources`)
+  - AWEUITheme (from `./UITheme`)
+
+EXTERNAL SOURCES:
+  AWEFeed:
+    :path: "./Modules/Feed"
+  AWEInfra:
+    :path: "./Infra"
+  AWELaunchKit:
+    :path: "./LaunchKit"
+  AWESearch:
+    :path: "./Modules/Search"
+  AWEUIResources:
+    :path: "./UIResources"
+  AWEUITheme:
+    :path: "./UITheme"
+
+SPEC CHECKSUMS:
+  AWEFeed: 8d90787add9f10d06088f3b5607fc15d6ce1817c
+  AWEInfra: 5ecb2dd9fff9fec5b86594d40e36fe7cae8acb8a
+  AWELaunchKit: 12573678d98a40913c0307851dc3476adff9e169
+  AWESearch: 036e59868dcf880b4ab700c158430bea4364e9fe
+  AWEUIResources: 8f0a80f3f6056943a25668f181a34914307cf2a4
+  AWEUITheme: 0dc21051fe8da13707840e567fa7a02642632daa
+
+PODFILE CHECKSUM: d2a88ef943ab92d5451ad8115fb481a79ed94d7c
+
+COCOAPODS: 1.16.2

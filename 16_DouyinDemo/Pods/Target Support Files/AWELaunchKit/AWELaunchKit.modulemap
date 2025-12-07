@@ -1,0 +1,6 @@
+framework module AWELaunchKit {
+  umbrella header "AWELaunchKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

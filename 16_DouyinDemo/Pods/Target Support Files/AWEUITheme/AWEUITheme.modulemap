@@ -1,0 +1,6 @@
+framework module AWEUITheme {
+  umbrella header "AWEUITheme-umbrella.h"
+
+  export *
+  module * { export * }
+}

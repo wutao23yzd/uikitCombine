@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-DouyinHostApp/Pods-DouyinHostApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWEFeed/AWEFeed.framework
+${BUILT_PRODUCTS_DIR}/AWEInfra/AWEInfra.framework
+${BUILT_PRODUCTS_DIR}/AWELaunchKit/AWELaunchKit.framework
+${BUILT_PRODUCTS_DIR}/AWESearch/AWESearch.framework
+${BUILT_PRODUCTS_DIR}/AWEUIResources/AWEUIResources.framework
+${BUILT_PRODUCTS_DIR}/AWEUITheme/AWEUITheme.framework
