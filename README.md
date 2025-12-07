@@ -58,7 +58,7 @@ Showcasing **Flutter cross-platform** and **iOS native (Swift / SwiftUI)** best 
 - **Demo2** — 深入理解 Swift Codable：从基础到进阶 · [说明文档](https://juejin.cn/post/7512720387718725659)
 - **Demo3** — 崩溃日志手动符号化小记 · [说明文档](https://juejin.cn/post/7515377033868361738)
 - **Demo4** — RxSwift 中的 PriorityQueue · [说明文档](https://juejin.cn/post/7517916583731396645)
-- **Demo16**—从单体到子壳：一套「对标亿级 DAU App」的 iOS 架构实战 Demo· [说明文档]()
+- **Demo16**—从单体到子壳：一套「对标亿级 DAU App」的 iOS 架构实战 Demo· [说明文档](https://juejin.cn/post/7580564126402953266)
 
 ---
 
